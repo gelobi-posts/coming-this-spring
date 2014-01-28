@@ -1,0 +1,115 @@
+@import "./general"
+
+body
+
+	background: black
+	background: url("../../images/pg-drips.png")
+	background-size: cover
+	overflow: hidden
+	// text-align: center
+
+
+.login
+
+	text-align: center
+
+.login-line
+
+	position: relative
+	top: 50vh
+	height: 48px
+	width: 590px
+
+	-webkit-transform-style: preserve-3d
+
+	margin:
+		left: auto
+		right: auto
+		// top: -340px
+		bottom: -48px
+
+.login-line-holder
+
+	width: 520px
+	height: 48px
+	overflow: hidden
+	position: relative
+
+.login-line-holder-box
+
+	@include black-box
+
+	position: absolute
+	left: 0
+	width: 520px
+
+.login-line-holder-box-input
+
+	@include black-input
+	text-align: left
+	width: 165px
+	bottom: 8px
+
+.login-line-holder-box-username
+
+	left: 27px
+
+.login-line-holder-box-password
+
+	right: 40px
+
+.login-line-go
+
+	@include button
+
+	position: absolute
+	right: 0
+
+	width: 57px
+	height: 50px
+
+	&:after
+
+		background-image: url("../../images/icon.png")
+		background-position: 21px center
+		background-repeat: no-repeat
+
+	top: -1px
+
+
+@keyframes caret
+
+	50%
+
+		opacity: 0.1
+		transform: scaleY(0.8)
+
+@-webkit-keyframes caret
+
+	50%
+
+		opacity: 0.1
+		-webkit-transform: scaleY(0.8)
+
+
+.fi-holder-caret
+
+	position: relative
+	margin: 0
+	opacity: .8
+	box-shadow: 0 0 8px #FFF
+	-webkit-animation: 0.4s 40ms caret infinite
+	animation: 0.4s 40ms caret infinite
+	font-weight: normal
+	// opacity: 0
+	display: inline-block
+	width: 3px
+	margin-left: -3px
+	background: #FFF
+	border-radius: 4px
+	-moz-user-select: none
+
+.fi-holder
+
+	display: inline-block
+	position: relative

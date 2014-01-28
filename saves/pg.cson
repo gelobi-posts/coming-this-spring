@@ -1,0 +1,364 @@
+{
+  timeControl:
+    duration: 13615.227068516293
+    t: 8315.830778279756
+    _focus:
+      from: 0
+      to: 13615.227068516293
+
+    _lastPlayedTickAt: 0
+
+  workspaces:
+    workspaces: [
+      name: "WORKSPACE HATMAN"
+      propHolders: [
+        {
+          id: "main-Characters-AwesomeType-Username"
+          _expanded: false
+          actorPropId: "main-Characters-AwesomeType-Username"
+          _height: 180
+        }
+        {
+          id: "main-Characters-AwesomeType-Password"
+          _expanded: false
+          actorPropId: "main-Characters-AwesomeType-Password"
+          _height: 180
+        }
+        {
+          id: "main-PageObjects-BoxPositions-x"
+          _expanded: true
+          actorPropId: "main-PageObjects-BoxPositions-x"
+          _height: 180
+        }
+      ]
+    ]
+    _activeWorkspaceName: "WORKSPACE HATMAN"
+
+  timeline:
+    _allProps:
+      "main-Directorals-Rectanguli-width":
+        pacs:
+          _idCounter: 24
+          chronologyLength: 966.6006704360109
+          chronology:
+            points: [
+              {
+                t: -0.7129396976106182
+                value: 73.89064101856583
+                id: "main-Directorals-Rectanguli-width-point-0"
+                handler: [
+                  100
+                  6.714285850524902
+                  100
+                  6.714285850524902
+                ]
+              }
+              {
+                t: -0.535175878735019
+                value: 74.54501472881863
+                id: "main-Directorals-Rectanguli-width-point-1"
+                handler: [
+                  100
+                  7.13153076171875
+                  100
+                  7.13153076171875
+                ]
+              }
+              {
+                t: 568.7660728828847
+                value: 82.45708360195995
+                id: "main-Directorals-Rectanguli-width-point-5"
+                handler: [
+                  100
+                  7.99008846282959
+                  118.26203918457031
+                  200.6618194580078
+                ]
+              }
+              {
+                t: 966.6006704360109
+                value: 96.06124031578995
+                id: "main-Directorals-Rectanguli-width-point-4"
+                handler: [
+                  130.44317626953125
+                  188.49920654296875
+                  52.17725372314453
+                  68.55075073242188
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: -0.7129396976106182
+                id: "main-Directorals-Rectanguli-width-connector-3"
+              }
+              {
+                t: 568.7660728828847
+                id: "main-Directorals-Rectanguli-width-connector-24"
+              }
+            ]
+
+      "main-Characters-AwesomeType-Animation":
+        pacs:
+          _idCounter: 14
+          chronologyLength: 1234.064173948749
+          chronology:
+            points: [
+              {
+                t: 314.5627111340408
+                value: 0
+                id: "main-Characters-AwesomeType-Animation-point-0"
+                handler: [
+                  100
+                  1.5901060104370117
+                  155.4016876220703
+                  0.09133429080247879
+                ]
+              }
+              {
+                t: 1234.064173948749
+                value: 1
+                id: "main-Characters-AwesomeType-Animation-point-1"
+                handler: [
+                  185.47763061523438
+                  -0.09523949772119522
+                  100
+                  1.7243940830230713
+                ]
+              }
+            ]
+            connectors: [
+              t: 314.5627111340408
+              id: "main-Characters-AwesomeType-Animation-connector-14"
+            ]
+
+      "main-Characters-AwesomeType-Username":
+        pacs:
+          _idCounter: 17
+          chronologyLength: 5648.634699594674
+          chronology:
+            points: [
+              {
+                t: 0
+                value: -0.22803925315184254
+                id: "main-Characters-AwesomeType-Username-point-4"
+                handler: [
+                  100
+                  -0.03310484066605568
+                  100
+                  -0.03310484066605568
+                ]
+              }
+              {
+                t: 1224.021965401735
+                value: 0
+                id: "main-Characters-AwesomeType-Username-point-0"
+                handler: [
+                  471.739990234375
+                  0.0017805431270971894
+                  574.90771484375
+                  0.046588122844696045
+                ]
+              }
+              {
+                t: 2078.918358209926
+                value: 0.4701654109700907
+                id: "main-Characters-AwesomeType-Username-point-12"
+                handler: [
+                  100
+                  0.07041844725608826
+                  100
+                  0.07041844725608826
+                ]
+              }
+              {
+                t: 2540.4483797375847
+                value: 0.9235773039386439
+                id: "main-Characters-AwesomeType-Username-point-14"
+                handler: [
+                  100
+                  0.09235773235559464
+                  100
+                  0.09235773235559464
+                ]
+              }
+              {
+                t: 3186.9905247311845
+                value: 1.2
+                id: "main-Characters-AwesomeType-Username-point-1"
+                handler: [
+                  520.1198120117188
+                  -0.5772364139556885
+                  454.5085754394531
+                  0.5865225195884705
+                ]
+              }
+              {
+                t: 5648.634699594674
+                value: 1.4594646478069528
+                id: "main-Characters-AwesomeType-Username-point-10"
+                handler: [
+                  100
+                  0.1459464579820633
+                  100
+                  0.1459464579820633
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 0
+                id: "main-Characters-AwesomeType-Username-connector-9"
+              }
+              {
+                t: 1224.021965401735
+                id: "main-Characters-AwesomeType-Username-connector-16"
+              }
+              {
+                t: 2078.918358209926
+                id: "main-Characters-AwesomeType-Username-connector-17"
+              }
+              {
+                t: 2540.4483797375847
+                id: "main-Characters-AwesomeType-Username-connector-15"
+              }
+              {
+                t: 3186.9905247311845
+                id: "main-Characters-AwesomeType-Username-connector-11"
+              }
+            ]
+
+      "main-Characters-AwesomeType-Password":
+        pacs:
+          _idCounter: 21
+          chronologyLength: 5639.567870221328
+          chronology:
+            points: [
+              {
+                t: -4.5334146866730975
+                value: -0.6883821451509371
+                id: "main-Characters-AwesomeType-Password-point-15"
+                handler: [
+                  100
+                  -0.05514490604400635
+                  100
+                  -0.05514490604400635
+                ]
+              }
+              {
+                t: 3372.8605268847814
+                value: -0.2
+                id: "main-Characters-AwesomeType-Password-point-9"
+                handler: [
+                  100
+                  0.049276191741228104
+                  100
+                  -0.020005425438284874
+                ]
+              }
+              {
+                t: 4406.4790754462465
+                value: 0
+                id: "main-Characters-AwesomeType-Password-point-0"
+                handler: [
+                  109.06682586669922
+                  -0.015365233644843102
+                  140.5781707763672
+                  0.4155762791633606
+                ]
+              }
+              {
+                t: 4767.832396675415
+                value: 0.3821042011193212
+                id: "main-Characters-AwesomeType-Password-point-18"
+                handler: [
+                  100
+                  0.0382104218006134
+                  100
+                  0.0382104218006134
+                ]
+              }
+              {
+                t: 5189.229372852842
+                value: 0.7573146185574093
+                id: "main-Characters-AwesomeType-Password-point-20"
+                handler: [
+                  100
+                  0.07573146373033524
+                  100
+                  0.07573146373033524
+                ]
+              }
+              {
+                t: 5639.567870221328
+                value: 1.2
+                id: "main-Characters-AwesomeType-Password-point-2"
+                handler: [
+                  142.7335968017578
+                  -0.5145452618598938
+                  100
+                  0.0768367350101471
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: -4.5334146866730975
+                id: "main-Characters-AwesomeType-Password-connector-17"
+              }
+              {
+                t: 3372.8605268847814
+                id: "main-Characters-AwesomeType-Password-connector-14"
+              }
+              {
+                t: 4406.4790754462465
+                id: "main-Characters-AwesomeType-Password-connector-13"
+              }
+              {
+                t: 4767.832396675415
+                id: "main-Characters-AwesomeType-Password-connector-19"
+              }
+              {
+                t: 5189.229372852842
+                id: "main-Characters-AwesomeType-Password-connector-21"
+              }
+            ]
+
+      "main-PageObjects-BoxPositions-x":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 8615.227068516293
+          chronology:
+            points: [
+              {
+                t: 5704.702259089645
+                value: 0
+                id: "main-PageObjects-BoxPositions-x-point-0"
+                handler: [
+                  100
+                  -1.5
+                  419.0616455078125
+                  -1049.495361328125
+                ]
+              }
+              {
+                t: 8615.227068516293
+                value: -1500
+                id: "main-PageObjects-BoxPositions-x-point-1"
+                handler: [
+                  992.0642700195312
+                  770.6797485351562
+                  100
+                  -1.541785717010498
+                ]
+              }
+            ]
+            connectors: [
+              t: 5704.702259089645
+              id: "main-PageObjects-BoxPositions-x-connector-2"
+            ]
+
+  mainBox:
+    height: 322
+    _isVisible: true
+}

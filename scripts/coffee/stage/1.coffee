@@ -48,6 +48,26 @@ atp = new AwesomeType password
 atu.createText('Nasa\'s Boss :|')
 atp.createText('***********')
 
+
+
+
+userLogged = document.createElement 'div'
+userLogged.innerHTML = 'Charles Bolden'
+userLogged.classList.add 'login-line'
+line.appendChild userLogged
+
+dumUserLogged = new SDI userLogged
+
+
+infoLogged = document.createElement 'div'
+userLogged.innerHTML = 'Time in space: 28d 08h 37m'
+infoLogged.classList.add 'login-line'
+line.appendChild infoLogged
+
+dumInfoLogged = new SDI infoLogged
+
+
+
 # instantiate theatrejs with 60fps
 timeline = new DynamicTimeline 60
 

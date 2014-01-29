@@ -1,10 +1,10 @@
 {
   timeControl:
-    duration: 13615.227068516293
-    t: 8315.830778279756
+    duration: 11772.480760615532
+    t: 6997.0191920127945
     _focus:
-      from: 0
-      to: 13615.227068516293
+      from: 4251.995249594178
+      to: 7579.533966812078
 
     _lastPlayedTickAt: 0
 
@@ -28,7 +28,13 @@
           id: "main-PageObjects-BoxPositions-x"
           _expanded: true
           actorPropId: "main-PageObjects-BoxPositions-x"
-          _height: 180
+          _height: 118
+        }
+        {
+          id: "main-PageObjects-GoPositions-x"
+          _expanded: true
+          actorPropId: "main-PageObjects-GoPositions-x"
+          _height: 142
         }
       ]
     ]
@@ -326,36 +332,87 @@
 
       "main-PageObjects-BoxPositions-x":
         pacs:
-          _idCounter: 2
-          chronologyLength: 8615.227068516293
+          _idCounter: 12
+          chronologyLength: 6237.7051791800095
           chronology:
             points: [
               {
-                t: 5704.702259089645
+                t: 5729.5532889006645
                 value: 0
                 id: "main-PageObjects-BoxPositions-x-point-0"
                 handler: [
                   100
                   -1.5
-                  419.0616455078125
-                  -1049.495361328125
+                  321.3527526855469
+                  -735.4359741210938
                 ]
               }
               {
-                t: 8615.227068516293
-                value: -1500
-                id: "main-PageObjects-BoxPositions-x-point-1"
+                t: 6237.7051791800095
+                value: -668.0062227675132
+                id: "main-PageObjects-BoxPositions-x-point-10"
                 handler: [
-                  992.0642700195312
-                  770.6797485351562
-                  100
-                  -1.541785717010498
+                  122.23738098144531
+                  138.73976135253906
+                  158.44773864746094
+                  -66.80062103271484
                 ]
               }
             ]
             connectors: [
-              t: 5704.702259089645
-              id: "main-PageObjects-BoxPositions-x-connector-2"
+              t: 5729.5532889006645
+              id: "main-PageObjects-BoxPositions-x-connector-12"
+            ]
+
+      "main-PageObjects-GoPositions-x":
+        pacs:
+          _idCounter: 27
+          chronologyLength: 6481.34090900813
+          chronology:
+            points: [
+              {
+                t: 5688.140245244056
+                value: 0
+                id: "main-PageObjects-GoPositions-x-point-0"
+                handler: [
+                  63.73876953125
+                  -307.4816589355469
+                  36.749977111816406
+                  -20.377634048461914
+                ]
+              }
+              {
+                t: 5735.15138782227
+                value: -20
+                id: "main-PageObjects-GoPositions-x-point-6"
+                handler: [
+                  33.897125244140625
+                  0.4370059072971344
+                  308.63885498046875
+                  -844.192138671875
+                ]
+              }
+              {
+                t: 6481.34090900813
+                value: -750
+                id: "main-PageObjects-GoPositions-x-point-4"
+                handler: [
+                  79.15626525878906
+                  27.294702529907227
+                  155.8033447265625
+                  31.9013671875
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 5688.140245244056
+                id: "main-PageObjects-GoPositions-x-connector-27"
+              }
+              {
+                t: 5735.15138782227
+                id: "main-PageObjects-GoPositions-x-connector-26"
+              }
             ]
 
   mainBox:

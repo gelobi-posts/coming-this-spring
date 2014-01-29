@@ -1,10 +1,10 @@
 {
   timeControl:
-    duration: 11772.480760615532
-    t: 6997.0191920127945
+    duration: 12231.876119563065
+    t: 7311.828542093041
     _focus:
-      from: 4251.995249594178
-      to: 7579.533966812078
+      from: 4087.5364922157983
+      to: 9983.538717219582
 
     _lastPlayedTickAt: 0
 
@@ -13,28 +13,40 @@
       name: "WORKSPACE HATMAN"
       propHolders: [
         {
-          id: "main-Characters-AwesomeType-Username"
+          id: "main-PageObjects-GoPositions-x"
           _expanded: false
-          actorPropId: "main-Characters-AwesomeType-Username"
+          actorPropId: "main-PageObjects-GoPositions-x"
+          _height: 142
+        }
+        {
+          id: "main-PageObjects-loggedParams-Opacity"
+          _expanded: true
+          actorPropId: "main-PageObjects-loggedParams-Opacity"
+          _height: 93
+        }
+        {
+          id: "main-PageObjects-loggedParams-RotateY"
+          _expanded: true
+          actorPropId: "main-PageObjects-loggedParams-RotateY"
           _height: 180
         }
         {
           id: "main-Characters-AwesomeType-Password"
-          _expanded: false
+          _expanded: true
           actorPropId: "main-Characters-AwesomeType-Password"
+          _height: 180
+        }
+        {
+          id: "main-Characters-AwesomeType-Username"
+          _expanded: true
+          actorPropId: "main-Characters-AwesomeType-Username"
           _height: 180
         }
         {
           id: "main-PageObjects-BoxPositions-x"
           _expanded: true
           actorPropId: "main-PageObjects-BoxPositions-x"
-          _height: 118
-        }
-        {
-          id: "main-PageObjects-GoPositions-x"
-          _expanded: true
-          actorPropId: "main-PageObjects-GoPositions-x"
-          _height: 142
+          _height: 180
         }
       ]
     ]
@@ -352,8 +364,8 @@
                 value: -668.0062227675132
                 id: "main-PageObjects-BoxPositions-x-point-10"
                 handler: [
-                  122.23738098144531
-                  138.73976135253906
+                  149.4095001220703
+                  72.73909759521484
                   158.44773864746094
                   -66.80062103271484
                 ]
@@ -366,8 +378,8 @@
 
       "main-PageObjects-GoPositions-x":
         pacs:
-          _idCounter: 27
-          chronologyLength: 6481.34090900813
+          _idCounter: 28
+          chronologyLength: 7231.876119563066
           chronology:
             points: [
               {
@@ -415,7 +427,75 @@
               }
             ]
 
+      "main-PageObjects-loggedParams-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 7227.695794541435
+          chronology:
+            points: [
+              {
+                t: 6197.245676709511
+                value: -0.03699593049175334
+                id: "main-PageObjects-loggedParams-Opacity-point-0"
+                handler: [
+                  100
+                  1.9607843160629272
+                  327.82769775390625
+                  0.9326039552688599
+                ]
+              }
+              {
+                t: 7227.695794541435
+                value: 1
+                id: "main-PageObjects-loggedParams-Opacity-point-1"
+                handler: [
+                  687.3356323242188
+                  -0.29552263021469116
+                  231.68023681640625
+                  -0.19665713608264923
+                ]
+              }
+            ]
+            connectors: [
+              t: 6197.245676709511
+              id: "main-PageObjects-loggedParams-Opacity-connector-3"
+            ]
+
+      "main-PageObjects-loggedParams-RotateY":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 7204.704006922468
+          chronology:
+            points: [
+              {
+                t: 6201.426001731142
+                value: -83.42650146698465
+                id: "main-PageObjects-loggedParams-RotateY-point-0"
+                handler: [
+                  100
+                  2.142857074737549
+                  319.79486083984375
+                  97.70690155029297
+                ]
+              }
+              {
+                t: 7204.704006922468
+                value: 22.760204039301193
+                id: "main-PageObjects-loggedParams-RotateY-point-1"
+                handler: [
+                  263.03265380859375
+                  0.7340930104255676
+                  100
+                  2.2760202884674072
+                ]
+              }
+            ]
+            connectors: [
+              t: 6201.426001731142
+              id: "main-PageObjects-loggedParams-RotateY-connector-3"
+            ]
+
   mainBox:
     height: 322
-    _isVisible: true
+    _isVisible: false
 }

@@ -25,11 +25,15 @@ holder.appendChild box
 
 dumBox = new SDI box
 
-goBtn = document.createElement 'div'
-goBtn.classList.add 'login-line-go'
-line.appendChild goBtn
+go = document.createElement 'div'
+go.classList.add 'login-line-go'
+line.appendChild go
 
-dumGo = new SDI goBtn
+goBtn = document.createElement 'div'
+goBtn.classList.add 'login-line-go-btn'
+go.appendChild goBtn
+
+dumGo = new SDI go
 
 username = document.createElement 'div'
 username.classList.add 'login-line-holder-box-input'
@@ -50,19 +54,25 @@ atp.createText('***********')
 
 
 
+logged = document.createElement 'div'
+logged.classList.add 'login-line-logged'
+go.appendChild logged
+
+dumLogged = new SDI logged
+
 
 userLogged = document.createElement 'div'
 userLogged.innerHTML = 'Charles Bolden'
-userLogged.classList.add 'login-line'
-line.appendChild userLogged
+userLogged.classList.add 'login-line-logged-user'
+logged.appendChild userLogged
 
 dumUserLogged = new SDI userLogged
 
 
 infoLogged = document.createElement 'div'
-userLogged.innerHTML = 'Time in space: 28d 08h 37m'
-infoLogged.classList.add 'login-line'
-line.appendChild infoLogged
+infoLogged.innerHTML = '28d 08h 37m'
+infoLogged.classList.add 'login-line-logged-info'
+logged.appendChild infoLogged
 
 dumInfoLogged = new SDI infoLogged
 
@@ -106,6 +116,14 @@ timeline.addObject 'go', dumGo
 
 editorModel.graph.getGroup('PageObjects').getActor('GoPositions')
 .addPropOfObject 'x', 'go', 'setTranslateX', 'getTranslateX'
+
+timeline.addObject 'logged', dumLogged
+
+editorModel.graph.getGroup('PageObjects').getActor('loggedParams')
+.addPropOfObject 'Opacity', 'logged', 'setOpacity', 'getOpacity'
+
+editorModel.graph.getGroup('PageObjects').getActor('loggedParams')
+.addPropOfObject 'RotateY', 'logged', 'setRotateY', 'getRotateY'
 
 
 # and make the view visible

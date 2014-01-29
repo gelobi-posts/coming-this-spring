@@ -28,12 +28,40 @@ body
 		// top: -340px
 		bottom: -48px
 
+.login-line-logged
+
+
+	text-align: right
+
+	display: inline-block
+
+	position: relative
+	right: 170
+
+	height: 150px
+	width: 150px
+
+	-webkit-transform-origin: 150% 150%
+
+	color: rgba(240, 240, 240, 1)
+
+.login-line-logged-user
+
+	font-family: "HelveticaNeueLT Std Thin"
+	font-size: 22px
+
+.login-line-logged-info
+
+	font-family: "HelveticaNeueLT Std Thin"
+	font-size: 18px
+
 .login-line-holder
 
 	width: 520px
 	height: 48px
 	overflow: hidden
 	position: relative
+	display: inline-block
 
 .login-line-holder-box
 
@@ -60,13 +88,18 @@ body
 
 .login-line-go
 
-	@include button
+	display: inline-block
 
 	position: absolute
-	right: 0
+
+	margin-left: 15px
 
 	width: 57px
 	height: 50px
+
+.login-line-go-btn
+
+	@include button
 
 	&:after
 

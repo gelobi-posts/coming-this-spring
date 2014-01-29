@@ -33,7 +33,38 @@ goBtn = document.createElement 'div'
 goBtn.classList.add 'login-line-go-btn'
 go.appendChild goBtn
 
+profileIcon = document.createElement 'div'
+profileIcon.classList.add 'login-line-go-profile'
+go.appendChild profileIcon
+
 dumGo = new SDI go
+dumGo.setPerspective(400)
+
+dumGoBtn = new SDI goBtn
+
+dumProfile = new SDI profileIcon
+dumProfile.setOpacity(0)
+
+attach2icons =
+
+	setOpacity: (i) ->
+
+		dumProfile.setOpacity(i)
+		dumGoBtn.setOpacity(1 - i)
+
+	getOpacity: ->
+
+		dumProfile.getOpacity()
+
+	setRotateY: (i) ->
+
+		dumProfile.setRotateY(180 - i)
+		dumGoBtn.setRotateY(i)
+
+	getRotateY: ->
+
+		dumGoBtn.getRotateY()
+
 
 username = document.createElement 'div'
 username.classList.add 'login-line-holder-box-input'
@@ -59,6 +90,8 @@ logged.classList.add 'login-line-logged'
 go.appendChild logged
 
 dumLogged = new SDI logged
+dumLogged.setOpacity(0)
+dumLogged.setPerspective(400)
 
 
 userLogged = document.createElement 'div'
@@ -75,7 +108,6 @@ infoLogged.classList.add 'login-line-logged-info'
 logged.appendChild infoLogged
 
 dumInfoLogged = new SDI infoLogged
-
 
 
 # instantiate theatrejs with 60fps
@@ -124,6 +156,31 @@ editorModel.graph.getGroup('PageObjects').getActor('loggedParams')
 
 editorModel.graph.getGroup('PageObjects').getActor('loggedParams')
 .addPropOfObject 'RotateY', 'logged', 'setRotateY', 'getRotateY'
+
+# timeline.addObject 'GoButton', dumGoBtn
+
+# editorModel.graph.getGroup('PageObjects').getActor('GoButton')
+# .addPropOfObject 'Opacity', 'GoButton', 'setOpacity', 'getOpacity'
+
+# editorModel.graph.getGroup('PageObjects').getActor('GoButton')
+# .addPropOfObject 'RotateY', 'GoButton', 'setRotateY', 'getRotateY'
+
+# timeline.addObject 'ProfileIcon', dumProfile
+
+# editorModel.graph.getGroup('PageObjects').getActor('ProfileIcon')
+# .addPropOfObject 'Opacity', 'ProfileIcon', 'setOpacity', 'getOpacity'
+
+# editorModel.graph.getGroup('PageObjects').getActor('ProfileIcon')
+# .addPropOfObject 'RotateY', 'ProfileIcon', 'setRotateY', 'getRotateY'
+
+
+timeline.addObject 'IconsOp', attach2icons
+
+editorModel.graph.getGroup('PageObjects').getActor('Icons')
+.addPropOfObject 'Opacity', 'IconsOp', 'setOpacity', 'getOpacity'
+
+editorModel.graph.getGroup('PageObjects').getActor('Icons')
+.addPropOfObject 'RotateY', 'IconsOp', 'setRotateY', 'getRotateY'
 
 
 # and make the view visible

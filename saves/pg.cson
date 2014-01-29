@@ -1,10 +1,10 @@
 {
   timeControl:
-    duration: 12231.876119563065
-    t: 7311.828542093041
+    duration: 12244.60048385033
+    t: 7513.000000004889
     _focus:
-      from: 4087.5364922157983
-      to: 9983.538717219582
+      from: -6.9999999983701855
+      to: 10578.865211527931
 
     _lastPlayedTickAt: 0
 
@@ -19,10 +19,28 @@
           _height: 142
         }
         {
+          id: "main-Characters-AwesomeType-Password"
+          _expanded: false
+          actorPropId: "main-Characters-AwesomeType-Password"
+          _height: 180
+        }
+        {
+          id: "main-Characters-AwesomeType-Username"
+          _expanded: false
+          actorPropId: "main-Characters-AwesomeType-Username"
+          _height: 180
+        }
+        {
+          id: "main-PageObjects-BoxPositions-x"
+          _expanded: false
+          actorPropId: "main-PageObjects-BoxPositions-x"
+          _height: 180
+        }
+        {
           id: "main-PageObjects-loggedParams-Opacity"
           _expanded: true
           actorPropId: "main-PageObjects-loggedParams-Opacity"
-          _height: 93
+          _height: 130
         }
         {
           id: "main-PageObjects-loggedParams-RotateY"
@@ -31,22 +49,16 @@
           _height: 180
         }
         {
-          id: "main-Characters-AwesomeType-Password"
-          _expanded: true
-          actorPropId: "main-Characters-AwesomeType-Password"
+          id: "main-PageObjects-Icons-Opacity"
+          _expanded: false
+          actorPropId: "main-PageObjects-Icons-Opacity"
           _height: 180
         }
         {
-          id: "main-Characters-AwesomeType-Username"
-          _expanded: true
-          actorPropId: "main-Characters-AwesomeType-Username"
-          _height: 180
-        }
-        {
-          id: "main-PageObjects-BoxPositions-x"
-          _expanded: true
-          actorPropId: "main-PageObjects-BoxPositions-x"
-          _height: 180
+          id: "main-PageObjects-Icons-RotateY"
+          _expanded: false
+          actorPropId: "main-PageObjects-Icons-RotateY"
+          _height: 228
         }
       ]
     ]
@@ -429,7 +441,7 @@
 
       "main-PageObjects-loggedParams-Opacity":
         pacs:
-          _idCounter: 3
+          _idCounter: 5
           chronologyLength: 7227.695794541435
           chronology:
             points: [
@@ -438,10 +450,10 @@
                 value: -0.03699593049175334
                 id: "main-PageObjects-loggedParams-Opacity-point-0"
                 handler: [
-                  100
-                  1.9607843160629272
-                  327.82769775390625
-                  0.9326039552688599
+                  3148.47412109375
+                  -0.021786492317914963
+                  257.9888000488281
+                  1.1830672025680542
                 ]
               }
               {
@@ -463,28 +475,28 @@
 
       "main-PageObjects-loggedParams-RotateY":
         pacs:
-          _idCounter: 3
-          chronologyLength: 7204.704006922468
+          _idCounter: 4
+          chronologyLength: 7244.60048385033
           chronology:
             points: [
               {
                 t: 6201.426001731142
-                value: -83.42650146698465
+                value: -100
                 id: "main-PageObjects-loggedParams-RotateY-point-0"
                 handler: [
                   100
                   2.142857074737549
-                  319.79486083984375
-                  97.70690155029297
+                  91.9495620727539
+                  45.40256881713867
                 ]
               }
               {
-                t: 7204.704006922468
-                value: 22.760204039301193
+                t: 7244.60048385033
+                value: 0
                 id: "main-PageObjects-loggedParams-RotateY-point-1"
                 handler: [
-                  263.03265380859375
-                  0.7340930104255676
+                  346.1907043457031
+                  4.055986404418945
                   100
                   2.2760202884674072
                 ]
@@ -492,10 +504,214 @@
             ]
             connectors: [
               t: 6201.426001731142
-              id: "main-PageObjects-loggedParams-RotateY-connector-3"
+              id: "main-PageObjects-loggedParams-RotateY-connector-4"
+            ]
+
+      "main-PageObjects-GoButton-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 7213.251328639326
+          chronology:
+            points: [
+              {
+                t: 6498.472164427183
+                value: 1
+                id: "main-PageObjects-GoButton-Opacity-point-0"
+                handler: [
+                  125.92462921142578
+                  0.5102040767669678
+                  366.6533508300781
+                  -0.004676868673413992
+                ]
+              }
+              {
+                t: 7213.251328639326
+                value: 0
+                id: "main-PageObjects-GoButton-Opacity-point-1"
+                handler: [
+                  299.9900207519531
+                  0.020070524886250496
+                  100
+                  0.75
+                ]
+              }
+            ]
+            connectors: [
+              t: 6498.472164427183
+              id: "main-PageObjects-GoButton-Opacity-connector-2"
+            ]
+
+      "main-PageObjects-GoButton-RotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 7224.36188559599
+          chronology:
+            points: [
+              {
+                t: 6494.768645441629
+                value: 0
+                id: "main-PageObjects-GoButton-RotateY-point-0"
+                handler: [
+                  100
+                  6.5714287757873535
+                  260.9958190917969
+                  129.0901641845703
+                ]
+              }
+              {
+                t: 7224.36188559599
+                value: 180
+                id: "main-PageObjects-GoButton-RotateY-point-1"
+                handler: [
+                  341.3695068359375
+                  -135.82550048828125
+                  100
+                  0.6184874176979065
+                ]
+              }
+            ]
+            connectors: [
+              t: 6494.768645441629
+              id: "main-PageObjects-GoButton-RotateY-connector-2"
+            ]
+
+      "main-PageObjects-ProfileIcon-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 7213.568269093849
+          chronology:
+            points: [
+              {
+                t: 6446.299662780777
+                value: 0
+                id: "main-PageObjects-ProfileIcon-Opacity-point-0"
+                handler: [
+                  100
+                  -0.5
+                  705.4970092773438
+                  0.003489779308438301
+                ]
+              }
+              {
+                t: 7213.568269093849
+                value: 1
+                id: "main-PageObjects-ProfileIcon-Opacity-point-1"
+                handler: [
+                  181.27845764160156
+                  -0.09509182721376419
+                  100
+                  -0.5021428465843201
+                ]
+              }
+            ]
+            connectors: [
+              t: 6446.299662780777
+              id: "main-PageObjects-ProfileIcon-Opacity-connector-3"
+            ]
+
+      "main-PageObjects-ProfileIcon-RotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 7213.568269093849
+          chronology:
+            points: [
+              {
+                t: 6491.815597053586
+                value: 0
+                id: "main-PageObjects-ProfileIcon-RotateY-point-0"
+                handler: [
+                  100
+                  9.571428298950195
+                  282.8490295410156
+                  115.63213348388672
+                ]
+              }
+              {
+                t: 7213.568269093849
+                value: 180
+                id: "main-PageObjects-ProfileIcon-RotateY-point-1"
+                handler: [
+                  432.4013671875
+                  -132.83729553222656
+                  100
+                  10.37816333770752
+                ]
+              }
+            ]
+            connectors: [
+              t: 6491.815597053586
+              id: "main-PageObjects-ProfileIcon-RotateY-connector-2"
+            ]
+
+      "main-PageObjects-Icons-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 7229.823959905567
+          chronology:
+            points: [
+              {
+                t: 6232.047087532606
+                value: 0.019821428401129586
+                id: "main-PageObjects-Icons-Opacity-point-0"
+                handler: [
+                  100
+                  0.3571428656578064
+                  571.8494873046875
+                  0.05693111941218376
+                ]
+              }
+              {
+                t: 7229.823959905567
+                value: 1
+                id: "main-PageObjects-Icons-Opacity-point-1"
+                handler: [
+                  498.7059631347656
+                  -0.04644196853041649
+                  100
+                  0.38749998807907104
+                ]
+              }
+            ]
+            connectors: [
+              t: 6232.047087532606
+              id: "main-PageObjects-Icons-Opacity-connector-3"
+            ]
+
+      "main-PageObjects-Icons-RotateY":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 7146.354526688308
+          chronology:
+            points: [
+              {
+                t: 6268.623643966979
+                value: 0
+                id: "main-PageObjects-Icons-RotateY-point-0"
+                handler: [
+                  100
+                  3.085106372833252
+                  615.3055419921875
+                  11.452856063842773
+                ]
+              }
+              {
+                t: 7146.354526688308
+                value: 180
+                id: "main-PageObjects-Icons-RotateY-point-1"
+                handler: [
+                  611.7459716796875
+                  -5.187224864959717
+                  100
+                  3.342745542526245
+                ]
+              }
+            ]
+            connectors: [
+              t: 6268.623643966979
+              id: "main-PageObjects-Icons-RotateY-connector-6"
             ]
 
   mainBox:
-    height: 322
+    height: 597
     _isVisible: false
 }

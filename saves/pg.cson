@@ -1,68 +1,85 @@
 {
   timeControl:
-    duration: 12244.60048385033
-    t: 7513.000000004889
+    t: 3070.0000000102445
     _focus:
-      from: -6.9999999983701855
-      to: 10578.865211527931
+      from: -16
+      to: 4908.62311557789
 
     _lastPlayedTickAt: 0
 
   workspaces:
     workspaces: [
-      name: "WORKSPACE HATMAN"
-      propHolders: [
-        {
-          id: "main-PageObjects-GoPositions-x"
-          _expanded: false
-          actorPropId: "main-PageObjects-GoPositions-x"
-          _height: 142
-        }
-        {
-          id: "main-Characters-AwesomeType-Password"
-          _expanded: false
-          actorPropId: "main-Characters-AwesomeType-Password"
-          _height: 180
-        }
-        {
-          id: "main-Characters-AwesomeType-Username"
-          _expanded: false
-          actorPropId: "main-Characters-AwesomeType-Username"
-          _height: 180
-        }
-        {
-          id: "main-PageObjects-BoxPositions-x"
-          _expanded: false
-          actorPropId: "main-PageObjects-BoxPositions-x"
-          _height: 180
-        }
-        {
-          id: "main-PageObjects-loggedParams-Opacity"
-          _expanded: true
-          actorPropId: "main-PageObjects-loggedParams-Opacity"
-          _height: 130
-        }
-        {
-          id: "main-PageObjects-loggedParams-RotateY"
-          _expanded: true
-          actorPropId: "main-PageObjects-loggedParams-RotateY"
-          _height: 180
-        }
-        {
-          id: "main-PageObjects-Icons-Opacity"
-          _expanded: false
-          actorPropId: "main-PageObjects-Icons-Opacity"
-          _height: 180
-        }
-        {
-          id: "main-PageObjects-Icons-RotateY"
-          _expanded: false
-          actorPropId: "main-PageObjects-Icons-RotateY"
-          _height: 228
-        }
-      ]
+      {
+        name: "WORKSPACE HATMAN"
+        propHolders: []
+      }
+      {
+        name: "AWESOME PIE"
+        propHolders: [
+          {
+            id: "main-AwesomePie-AwesomePie-PieDeg"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-PieDeg"
+            _height: 244
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie2Deg"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie2Deg"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-PieDegStart"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-PieDegStart"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie2DegStart"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie2DegStart"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie3End"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie3End"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie3Start"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie3Start"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie4End"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie4End"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-Pie4Start"
+            _expanded: false
+            actorPropId: "main-AwesomePie-AwesomePie-Pie4Start"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-PieBounceEnd"
+            _expanded: true
+            actorPropId: "main-AwesomePie-AwesomePie-PieBounceEnd"
+            _height: 180
+          }
+          {
+            id: "main-AwesomePie-AwesomePie-PieBounceStart"
+            _expanded: true
+            actorPropId: "main-AwesomePie-AwesomePie-PieBounceStart"
+            _height: 180
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "WORKSPACE HATMAN"
+    _activeWorkspaceName: "AWESOME PIE"
 
   timeline:
     _allProps:
@@ -711,7 +728,381 @@
               id: "main-PageObjects-Icons-RotateY-connector-6"
             ]
 
+      "main-AwesomePie-AwesomePie-PieDeg":
+        pacs:
+          _idCounter: 15
+          chronologyLength: 1980.8843211030025
+          chronology:
+            points: [
+              {
+                t: 381.6191510315397
+                value: 0.5
+                id: "main-AwesomePie-AwesomePie-PieDeg-point-0"
+                handler: [
+                  100
+                  -1.1428571939468384
+                  848.5922241210938
+                  50.01263427734375
+                ]
+              }
+              {
+                t: 1980.8843211030025
+                value: 210
+                id: "main-AwesomePie-AwesomePie-PieDeg-point-1"
+                handler: [
+                  919.7394409179688
+                  -9.444595336914062
+                  158.7737579345703
+                  -103.21222686767578
+                ]
+              }
+            ]
+            connectors: [
+              t: 381.6191510315397
+              id: "main-AwesomePie-AwesomePie-PieDeg-connector-14"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie2Deg":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 1315.8127320017172
+          chronology:
+            points: [
+              {
+                t: 381.6191510315396
+                value: 0
+                id: "main-AwesomePie-AwesomePie-Pie2Deg-point-0"
+                handler: [
+                  100
+                  -0.2142857164144516
+                  0
+                  33.02247619628906
+                ]
+              }
+              {
+                t: 1315.8127320017172
+                value: 111.31451895067886
+                id: "main-AwesomePie-AwesomePie-Pie2Deg-point-1"
+                handler: [
+                  588.750244140625
+                  -7.078629970550537
+                  100
+                  -0.21841837465763092
+                ]
+              }
+            ]
+            connectors: [
+              t: 381.6191510315396
+              id: "main-AwesomePie-AwesomePie-Pie2Deg-connector-4"
+            ]
+
+      "main-AwesomePie-AwesomePie-PieDegStart":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 1595.638594984975
+          chronology:
+            points: [
+              {
+                t: 720.2187823539809
+                value: 0
+                id: "main-AwesomePie-AwesomePie-PieDegStart-point-0"
+                handler: [
+                  100
+                  -0.1428571492433548
+                  121.65349578857422
+                  23.048171997070312
+                ]
+              }
+              {
+                t: 1595.638594984975
+                value: 40
+                id: "main-AwesomePie-AwesomePie-PieDegStart-point-1"
+                handler: [
+                  536.1632080078125
+                  -3.710102081298828
+                  100
+                  -0.15673469007015228
+                ]
+              }
+            ]
+            connectors: [
+              t: 720.2187823539809
+              id: "main-AwesomePie-AwesomePie-PieDegStart-connector-4"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie2DegStart":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1583.265170071463
+          chronology:
+            points: [
+              {
+                t: 584.1111083053459
+                value: -90
+                id: "main-AwesomePie-AwesomePie-Pie2DegStart-point-0"
+                handler: [
+                  100
+                  0.4285714328289032
+                  925.9261474609375
+                  21.75190544128418
+                ]
+              }
+              {
+                t: 1583.265170071463
+                value: 40
+                id: "main-AwesomePie-AwesomePie-Pie2DegStart-point-1"
+                handler: [
+                  461.92266845703125
+                  -0.03465745225548744
+                  100
+                  0.4594897925853729
+                ]
+              }
+            ]
+            connectors: [
+              t: 584.1111083053459
+              id: "main-AwesomePie-AwesomePie-Pie2DegStart-connector-2"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie3End":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1450.2508522512057
+          chronology:
+            points: [
+              {
+                t: 395.4163783742835
+                value: 0
+                id: "main-AwesomePie-AwesomePie-Pie3End-point-0"
+                handler: [
+                  100
+                  -1.2142857313156128
+                  817.6586303710938
+                  8.99200439453125
+                ]
+              }
+              {
+                t: 1450.2508522512057
+                value: 100
+                id: "main-AwesomePie-AwesomePie-Pie3End-point-1"
+                handler: [
+                  301.0681457519531
+                  -2.7165815830230713
+                  100
+                  -1.2706632614135742
+                ]
+              }
+            ]
+            connectors: [
+              t: 395.4163783742835
+              id: "main-AwesomePie-AwesomePie-Pie3End-connector-2"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie3Start":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1784.3333249160376
+          chronology:
+            points: [
+              {
+                t: 386.1363096891493
+                value: -40
+                id: "main-AwesomePie-AwesomePie-Pie3Start-point-0"
+                handler: [
+                  100
+                  -0.1428571492433548
+                  223.7342529296875
+                  0.11925364285707474
+                ]
+              }
+              {
+                t: 1784.3333249160376
+                value: 100
+                id: "main-AwesomePie-AwesomePie-Pie3Start-point-1"
+                handler: [
+                  100
+                  -0.1472449004650116
+                  100
+                  -0.1472449004650116
+                ]
+              }
+            ]
+            connectors: [
+              t: 386.1363096891493
+              id: "main-AwesomePie-AwesomePie-Pie3Start-connector-2"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie4End":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1706.9994192065858
+          chronology:
+            points: [
+              {
+                t: 376.85624100401503
+                value: 0
+                id: "main-AwesomePie-AwesomePie-Pie4End-point-0"
+                handler: [
+                  100
+                  -0.1428571492433548
+                  536.1632080078125
+                  4.148979663848877
+                ]
+              }
+              {
+                t: 1706.9994192065858
+                value: 100
+                id: "main-AwesomePie-AwesomePie-Pie4End-point-1"
+                handler: [
+                  529.9765014648438
+                  -9.44428539276123
+                  100
+                  -0.14530612528324127
+                ]
+              }
+            ]
+            connectors: [
+              t: 376.85624100401503
+              id: "main-AwesomePie-AwesomePie-Pie4End-connector-2"
+            ]
+
+      "main-AwesomePie-AwesomePie-Pie4Start":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1722.4662003484761
+          chronology:
+            points: [
+              {
+                t: 376.85624100401503
+                value: 180
+                id: "main-AwesomePie-AwesomePie-Pie4Start-point-0"
+                handler: [
+                  100
+                  4.9285712242126465
+                  100
+                  4.9285712242126465
+                ]
+              }
+              {
+                t: 1722.4662003484761
+                value: 270
+                id: "main-AwesomePie-AwesomePie-Pie4Start-point-1"
+                handler: [
+                  403.1488952636719
+                  -2.8381781578063965
+                  100
+                  5.20668363571167
+                ]
+              }
+            ]
+            connectors: [
+              t: 376.85624100401503
+              id: "main-AwesomePie-AwesomePie-Pie4Start-connector-2"
+            ]
+
+      "main-AwesomePie-AwesomePie-PieBounceEnd":
+        pacs:
+          _idCounter: 10
+          chronologyLength: 2062.735385470064
+          chronology:
+            points: [
+              {
+                t: -16
+                value: 0
+                id: "main-AwesomePie-AwesomePie-PieBounceEnd-point-0"
+                handler: [
+                  100
+                  -0.4285714328289032
+                  96.90664672851562
+                  480.43511962890625
+                ]
+              }
+              {
+                t: 1140.9152294133987
+                value: 100
+                id: "main-AwesomePie-AwesomePie-PieBounceEnd-point-1"
+                handler: [
+                  387.68212890625
+                  5.085366725921631
+                  557.8167114257812
+                  -96.29751586914062
+                ]
+              }
+              {
+                t: 2062.735385470064
+                value: 310
+                id: "main-AwesomePie-AwesomePie-PieBounceEnd-point-9"
+                handler: [
+                  455.7359619140625
+                  107.9474105834961
+                  100
+                  46.12207794189453
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: -16
+                id: "main-AwesomePie-AwesomePie-PieBounceEnd-connector-3"
+              }
+              {
+                t: 1140.9152294133987
+                id: "main-AwesomePie-AwesomePie-PieBounceEnd-connector-10"
+              }
+            ]
+
+      "main-AwesomePie-AwesomePie-PieBounceStart":
+        pacs:
+          _idCounter: 9
+          chronologyLength: 2037.9885356430395
+          chronology:
+            points: [
+              {
+                t: -16
+                value: 0
+                id: "main-AwesomePie-AwesomePie-PieBounceStart-point-7"
+                handler: [
+                  100
+                  1.6882439851760864
+                  100
+                  1.6882439851760864
+                ]
+              }
+              {
+                t: 432.53665311482035
+                value: 40
+                id: "main-AwesomePie-AwesomePie-PieBounceStart-point-0"
+                handler: [
+                  322.7216491699219
+                  57.41334533691406
+                  585.6569213867188
+                  -117.90430450439453
+                ]
+              }
+              {
+                t: 2037.9885356430395
+                value: 25
+                id: "main-AwesomePie-AwesomePie-PieBounceStart-point-1"
+                handler: [
+                  381.49542236328125
+                  194.6138458251953
+                  171.14718627929688
+                  -113.16438293457031
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: -16
+                id: "main-AwesomePie-AwesomePie-PieBounceStart-connector-8"
+              }
+              {
+                t: 432.53665311482035
+                id: "main-AwesomePie-AwesomePie-PieBounceStart-connector-9"
+              }
+            ]
+
   mainBox:
-    height: 597
-    _isVisible: false
+    height: 535
+    _isVisible: true
 }

@@ -15,7 +15,13 @@ module.exports = class HiThereSet extends Set
 		gelobiInGrotesk = El '#hiThere-gelobiInGrotesk'
 		.inside container
 
-		gelobiInGroteskImage = El '#hiThere-gelobiInGrotesk-image'
-		.inside gelobiInGrotesk
+		@_setupDomEl 'Hi there', 'Gelobi in Grotesk', gelobiInGrotesk, [
+			'translation', 'opacity'
+		]
 
-		@_setupDomEl 'Hi there', 'Gelobi in Grotesk', gelobiInGrotesk
+		cover = El '#hiThere-cover'
+		.inside container
+
+		@_setupDomEl 'Hi there', 'Cover', cover, [
+			'translation', 'scale'
+		]

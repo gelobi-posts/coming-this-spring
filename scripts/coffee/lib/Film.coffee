@@ -65,6 +65,12 @@ module.exports = class Film
 			actor.addPropOfObject 'Y', objName, 'y', 0
 			actor.addPropOfObject 'Z', objName, 'z', 0
 
+		if not shouldAccountForProps or 'scale' in props
+
+			actor.addPropOfObject 'Scale X', objName, 'scaleX', 0
+			actor.addPropOfObject 'Scale Y', objName, 'scaleY', 0
+			actor.addPropOfObject 'Scale Z', objName, 'scaleZ', 0
+
 		if not shouldAccountForProps or 'dims' in props
 
 			actor.addPropOfObject 'Width', objName, 'width', 0

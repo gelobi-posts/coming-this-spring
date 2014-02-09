@@ -1,0 +1,266 @@
+{
+  workspaces:
+    workspaces: [
+      name: "Playground"
+      propHolders: [
+        {
+          id: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
+          _expanded: false
+          actorPropId: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
+          _height: 94
+        }
+        {
+          id: "the-panels-Hi there-Gelobi in Grotesk-X"
+          _expanded: true
+          actorPropId: "the-panels-Hi there-Gelobi in Grotesk-X"
+          _height: 115
+        }
+        {
+          id: "the-panels-Hi there-Gelobi in Grotesk-Width"
+          _expanded: false
+          actorPropId: "the-panels-Hi there-Gelobi in Grotesk-Width"
+          _height: 180
+        }
+      ]
+    ]
+    _activeWorkspaceName: "Playground"
+
+  timeControl:
+    t: 673.8712900956355
+    _focus:
+      from: 0
+      to: 2775.154672512075
+
+    _lastPlayedTickAt: 0
+
+  timeline:
+    _allProps:
+      "the-panels-Background-Image-Opacity":
+        pacs:
+          _idCounter: 10
+          chronologyLength: 0
+          chronology:
+            points: [
+              t: 0
+              value: 0
+              id: "the-panels-Background-Image-Opacity-point-5"
+              handler: [
+                100
+                0.10938921570777893
+                100
+                0.10938921570777893
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Background-Image-Rotation X":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 1068.8992877379053
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Background-Image-Rotation Y":
+        pacs:
+          _idCounter: 11
+          chronologyLength: 1845.6770310008546
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Background-Image-Z":
+        pacs:
+          _idCounter: 11
+          chronologyLength: 0
+          chronology:
+            points: [
+              t: 0
+              value: -50
+              id: "the-panels-Background-Image-Z-point-6"
+              handler: [
+                100
+                1
+                100
+                1
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Background-Image-Y":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 393.07773707958165
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Background-Image-X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1057.280817219015
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Hi there-Gelobi in Grotesk-Opacity":
+        pacs:
+          _idCounter: 11
+          chronologyLength: 1336.1241096723807
+          chronology:
+            points: [
+              {
+                t: -1.6597815026986211
+                value: 0
+                id: "the-panels-Hi there-Gelobi in Grotesk-Opacity-point-1"
+                handler: [
+                  100
+                  0.004591836594045162
+                  100
+                  0.004591836594045162
+                ]
+              }
+              {
+                t: 760.1799282359633
+                value: 0
+                id: "the-panels-Hi there-Gelobi in Grotesk-Opacity-point-0"
+                handler: [
+                  100
+                  0.4285714328289032
+                  100
+                  0.4285714328289032
+                ]
+              }
+              {
+                t: 1336.1241096723807
+                value: 1
+                id: "the-panels-Hi there-Gelobi in Grotesk-Opacity-point-2"
+                handler: [
+                  511.6258239746094
+                  -0.16765451431274414
+                  100
+                  0.031224489212036133
+                ]
+              }
+            ]
+            connectors: [
+              t: 760.1799282359633
+              id: "the-panels-Hi there-Gelobi in Grotesk-Opacity-connector-11"
+            ]
+
+      "the-panels-Hi there-Gelobi in Grotesk-X":
+        pacs:
+          _idCounter: 9
+          chronologyLength: 1050.6416912082198
+          chronology:
+            points: [
+              {
+                t: 700.4277941388133
+                value: 44.051644407328865
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-point-0"
+                handler: [
+                  100
+                  2.0714285373687744
+                  28.62934112548828
+                  -29.519184112548828
+                ]
+              }
+              {
+                t: 1050.6416912082198
+                value: 0
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-point-1"
+                handler: [
+                  237.7618408203125
+                  1.505251169204712
+                  100
+                  2.206071376800537
+                ]
+              }
+            ]
+            connectors: [
+              t: 700.4277941388133
+              id: "the-panels-Hi there-Gelobi in Grotesk-X-connector-9"
+            ]
+
+      "the-panels-Hi there-Gelobi in Grotesk-Width":
+        pacs:
+          _idCounter: 16
+          chronologyLength: 1007.471595609666
+          chronology:
+            points: [
+              {
+                t: 707.0511436212175
+                value: 0
+                id: "the-panels-Hi there-Gelobi in Grotesk-Width-point-12"
+                handler: [
+                  100
+                  2.0714285373687744
+                  100
+                  2.0714285373687744
+                ]
+              }
+              {
+                t: 1007.471595609666
+                value: 150
+                id: "the-panels-Hi there-Gelobi in Grotesk-Width-point-13"
+                handler: [
+                  100
+                  0.14056122303009033
+                  100
+                  0.14056122303009033
+                ]
+              }
+            ]
+            connectors: [
+              t: 707.0511436212175
+              id: "the-panels-Hi there-Gelobi in Grotesk-Width-connector-16"
+            ]
+
+      "the-panels-Hi there-Gelobi in Grotesk-Height":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 112.84936565511535
+          chronology:
+            points: [
+              t: 112.84936565511535
+              value: 54
+              id: "the-panels-Hi there-Gelobi in Grotesk-Height-point-0"
+              handler: [
+                100
+                4.357142925262451
+                100
+                4.357142925262451
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Panels - Background-Image-Width":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 255.59057488719577
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Background-Image-Opacity":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 278.8275159249763
+          chronology:
+            points: [
+              t: 278.8275159249763
+              value: 0
+              id: "the-panels-Panels - Background-Image-Opacity-point-1"
+              handler: [
+                100
+                0.05741581693291664
+                100
+                0.05741581693291664
+              ]
+            ]
+            connectors: []
+
+  mainBox:
+    height: 334
+    _isVisible: true
+}

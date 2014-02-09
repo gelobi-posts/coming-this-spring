@@ -1,0 +1,24 @@
+{
+  "name": "gelobi-the-panels",
+  "private": true,
+  "version": "0.0.0",
+  "description": "(work in progress)",
+  "scripts": {
+    "prepublish": "node ./node_modules/coffee-script/bin/cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixana/gelobi-the-panels.git"
+  },
+  "keywords": [],
+  "author": "Pixana Inc.",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/pixana/gelobi-the-panels"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}

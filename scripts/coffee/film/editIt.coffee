@@ -7,4 +7,8 @@ setupSets film
 
 film.run()
 
+film.kilid.on 'ctrl+\\', ->
+
+	document.body.classList.toggle 'debug'
+
 window.film = film

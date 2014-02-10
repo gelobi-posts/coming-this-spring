@@ -19,6 +19,13 @@ module.exports = class HiThereSet extends Set
 			'translation', 'opacity'
 		]
 
+		webArtTech = El '#hiThere-webArtTech'
+		.inside container
+
+		@_setupDomEl 'Hi there', 'Web, Art, Tech', webArtTech, [
+			'translation', 'opacity'
+		]
+
 		cover = El '#hiThere-cover'
 		.inside container
 

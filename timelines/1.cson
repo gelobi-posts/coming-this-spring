@@ -1,53 +1,90 @@
 {
   workspaces:
     workspaces: [
-      name: "Playground"
-      propHolders: [
-        {
-          id: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
-          _expanded: false
-          actorPropId: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
-          _height: 117
-        }
-        {
-          id: "the-panels-Hi there-Gelobi in Grotesk-X"
-          _expanded: true
-          actorPropId: "the-panels-Hi there-Gelobi in Grotesk-X"
-          _height: 154
-        }
-        {
-          id: "the-panels-Hi there-Cover-Scale X"
-          _expanded: false
-          actorPropId: "the-panels-Hi there-Cover-Scale X"
-          _height: 89
-        }
-        {
-          id: "the-panels-Hi there-Cover-Scale Y"
-          _expanded: false
-          actorPropId: "the-panels-Hi there-Cover-Scale Y"
-          _height: 103
-        }
-        {
-          id: "the-panels-Hi there-Cover-X"
-          _expanded: true
-          actorPropId: "the-panels-Hi there-Cover-X"
-          _height: 118
-        }
-        {
-          id: "the-panels-Hi there-Cover-Y"
-          _expanded: false
-          actorPropId: "the-panels-Hi there-Cover-Y"
-          _height: 111
-        }
-      ]
+      {
+        name: "Hi There - gelobi"
+        propHolders: [
+          {
+            id: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
+            _expanded: false
+            actorPropId: "the-panels-Hi there-Gelobi in Grotesk-Opacity"
+            _height: 117
+          }
+          {
+            id: "the-panels-Hi there-Cover-Scale X"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Cover-Scale X"
+            _height: 89
+          }
+          {
+            id: "the-panels-Hi there-Cover-Scale Y"
+            _expanded: false
+            actorPropId: "the-panels-Hi there-Cover-Scale Y"
+            _height: 103
+          }
+          {
+            id: "the-panels-Hi there-Cover-X"
+            _expanded: false
+            actorPropId: "the-panels-Hi there-Cover-X"
+            _height: 118
+          }
+          {
+            id: "the-panels-Hi there-Cover-Y"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Cover-Y"
+            _height: 111
+          }
+          {
+            id: "the-panels-Hi there-Gelobi in Grotesk-X"
+            _expanded: false
+            actorPropId: "the-panels-Hi there-Gelobi in Grotesk-X"
+            _height: 180
+          }
+        ]
+      }
+      {
+        name: "Hi there - web art, ...<br>"
+        propHolders: [
+          {
+            id: "the-panels-Hi there-Web, Art, Tech-Opacity"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Web, Art, Tech-Opacity"
+            _height: 96
+          }
+          {
+            id: "the-panels-Hi there-Web, Art, Tech-X"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Web, Art, Tech-X"
+            _height: 155
+          }
+          {
+            id: "the-panels-Hi there-Cover-X"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Cover-X"
+            _height: 139
+          }
+          {
+            id: "the-panels-Hi there-Cover-Scale X"
+            _expanded: true
+            actorPropId: "the-panels-Hi there-Cover-Scale X"
+            _height: 94
+          }
+          {
+            id: "the-panels-Hi there-Gelobi in Grotesk-X"
+            _expanded: false
+            actorPropId: "the-panels-Hi there-Gelobi in Grotesk-X"
+            _height: 180
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Playground"
+    _activeWorkspaceName: "Hi there - web art, ...<br>"
 
   timeControl:
-    t: 1564.937086342976
+    t: 2419.620650339363
     _focus:
-      from: 3.357114988833473
-      to: 2030.6436445298486
+      from: 8.906579081003791
+      to: 4972.839986893783
 
     _lastPlayedTickAt: 0
 
@@ -168,8 +205,8 @@
 
       "the-panels-Hi there-Gelobi in Grotesk-X":
         pacs:
-          _idCounter: 9
-          chronologyLength: 1050.6416912082198
+          _idCounter: 16
+          chronologyLength: 3512.161017609161
           chronology:
             points: [
               {
@@ -194,10 +231,38 @@
                   -3.4581656455993652
                 ]
               }
+              {
+                t: 2582.9079334911
+                value: 0
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-point-10"
+                handler: [
+                  100
+                  0.07916548103094101
+                  367.1973571777344
+                  3.941250801086426
+                ]
+              }
+              {
+                t: 3512.161017609161
+                value: -217
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-point-11"
+                handler: [
+                  569.079833984375
+                  16.487842559814453
+                  100
+                  -0.6291379332542419
+                ]
+              }
             ]
             connectors: [
-              t: 700.4277941388133
-              id: "the-panels-Hi there-Gelobi in Grotesk-X-connector-9"
+              {
+                t: 700.4277941388133
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-connector-9"
+              }
+              {
+                t: 2582.9079334911
+                id: "the-panels-Hi there-Gelobi in Grotesk-X-connector-16"
+              }
             ]
 
       "the-panels-Hi there-Gelobi in Grotesk-Width":
@@ -280,19 +345,32 @@
 
       "the-panels-Hi there-Cover-Scale X":
         pacs:
-          _idCounter: 0
-          chronologyLength: 349.35121912151675
+          _idCounter: 1
+          chronologyLength: 2320.3502639821872
           chronology:
             points: [
-              t: 349.35121912151675
-              value: 300
-              id: "the-panels-Hi there-Cover-Scale X-point-0"
-              handler: [
-                100
-                0.7142857313156128
-                100
-                0.7142857313156128
-              ]
+              {
+                t: 349.35121912151675
+                value: 300
+                id: "the-panels-Hi there-Cover-Scale X-point-0"
+                handler: [
+                  100
+                  0.7142857313156128
+                  100
+                  0.7142857313156128
+                ]
+              }
+              {
+                t: 2320.3502639821872
+                value: 350
+                id: "the-panels-Hi there-Cover-Scale X-point-1"
+                handler: [
+                  100
+                  30.158891677856445
+                  100
+                  30.158891677856445
+                ]
+              }
             ]
             connectors: []
 
@@ -303,7 +381,7 @@
           chronology:
             points: [
               t: 349.53756416398335
-              value: 180
+              value: 90
               id: "the-panels-Hi there-Cover-Scale Y-point-0"
               handler: [
                 100
@@ -316,8 +394,8 @@
 
       "the-panels-Hi there-Cover-X":
         pacs:
-          _idCounter: 4
-          chronologyLength: 1057.012613895019
+          _idCounter: 13
+          chronologyLength: 3500.0252983442356
           chronology:
             points: [
               {
@@ -336,27 +414,66 @@
                 value: 900
                 id: "the-panels-Hi there-Cover-X-point-1"
                 handler: [
-                  100
-                  89.98934173583984
-                  126.67481994628906
-                  36.643653869628906
+                  28.462974548339844
+                  33.553611755371094
+                  149.71217346191406
+                  47.000144958496094
                 ]
               }
               {
-                t: 1057.012613895019
+                t: 998.8130006067603
                 value: 1070.7399323791121
                 id: "the-panels-Hi there-Cover-X-point-2"
                 handler: [
-                  131.52479553222656
-                  -16.711986541748047
+                  103.63748168945312
+                  -78.85091400146484
+                  33.31294250488281
+                  -27.288944244384766
+                ]
+              }
+              {
+                t: 2318.6794207546536
+                value: 1105
+                id: "the-panels-Hi there-Cover-X-point-13"
+                handler: [
                   100
-                  97.6001968383789
+                  115.2065658569336
+                  100
+                  115.2065658569336
+                ]
+              }
+              {
+                t: 2540.5897571202718
+                value: 1105
+                id: "the-panels-Hi there-Cover-X-point-7"
+                handler: [
+                  100
+                  93.21641540527344
+                  230.62982177734375
+                  -7.98127555847168
+                ]
+              }
+              {
+                t: 3500.0252983442356
+                value: 1400
+                id: "the-panels-Hi there-Cover-X-point-8"
+                handler: [
+                  104.18135070800781
+                  -187.25914001464844
+                  44.225372314453125
+                  -88.57585906982422
                 ]
               }
             ]
             connectors: [
-              t: 698.114998617423
-              id: "the-panels-Hi there-Cover-X-connector-4"
+              {
+                t: 698.114998617423
+                id: "the-panels-Hi there-Cover-X-connector-6"
+              }
+              {
+                t: 2540.5897571202718
+                id: "the-panels-Hi there-Cover-X-connector-12"
+              }
             ]
 
       "the-panels-Hi there-Cover-Y":
@@ -366,7 +483,7 @@
           chronology:
             points: [
               t: 348.66964170103444
-              value: 500
+              value: 450
               id: "the-panels-Hi there-Cover-Y-point-0"
               handler: [
                 100
@@ -377,8 +494,98 @@
             ]
             connectors: []
 
+      "the-panels-Hi there-Web, Art, Tech-X":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 3518.098736996498
+          chronology:
+            points: [
+              {
+                t: 194.93084206268537
+                value: 220
+                id: "the-panels-Hi there-Web, Art, Tech-X-point-0"
+                handler: [
+                  100
+                  3.357142925262451
+                  100
+                  3.357142925262451
+                ]
+              }
+              {
+                t: 2588.845652878435
+                value: 220
+                id: "the-panels-Hi there-Web, Art, Tech-X-point-1"
+                handler: [
+                  82.18684387207031
+                  -74.80045318603516
+                  295.9447326660156
+                  -7.174574375152588
+                ]
+              }
+              {
+                t: 3518.098736996498
+                value: 0
+                id: "the-panels-Hi there-Web, Art, Tech-X-point-2"
+                handler: [
+                  471.1074523925781
+                  -1.232498049736023
+                  100
+                  21.8852481842041
+                ]
+              }
+            ]
+            connectors: [
+              t: 2588.845652878435
+              id: "the-panels-Hi there-Web, Art, Tech-X-connector-4"
+            ]
+
+      "the-panels-Hi there-Web, Art, Tech-Opacity":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 3488.410140059818
+          chronology:
+            points: [
+              {
+                t: 199.78080983670696
+                value: 0
+                id: "the-panels-Hi there-Web, Art, Tech-Opacity-point-0"
+                handler: [
+                  100
+                  0.12857143580913544
+                  100
+                  0.12857143580913544
+                ]
+              }
+              {
+                t: 2542.310007551436
+                value: 0.5
+                id: "the-panels-Hi there-Web, Art, Tech-Opacity-point-1"
+                handler: [
+                  100
+                  0.0002755102177616209
+                  100
+                  0.0002755102177616209
+                ]
+              }
+              {
+                t: 3488.410140059818
+                value: 1
+                id: "the-panels-Hi there-Web, Art, Tech-Opacity-point-2"
+                handler: [
+                  100
+                  0.09431169182062149
+                  100
+                  0.09431169182062149
+                ]
+              }
+            ]
+            connectors: [
+              t: 2542.310007551436
+              id: "the-panels-Hi there-Web, Art, Tech-Opacity-connector-4"
+            ]
+
   mainBox:
-    height: 275
+    height: 453
     _isVisible: true
 
   timelineEditor:

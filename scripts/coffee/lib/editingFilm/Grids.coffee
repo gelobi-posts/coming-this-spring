@@ -12,6 +12,8 @@ module.exports = class Grids
 
 		if @_retrieve() is 'yes' then do @show
 
+		window.g = @toggle.bind @
+
 	_memorize: (val) ->
 
 		window.localStorage.setItem @film.id + '-grid-showing', val

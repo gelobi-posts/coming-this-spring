@@ -10,7 +10,7 @@ module.exports = class HiThereSet extends Set
 		@id = 'hiThere'
 
 		container = El '#hiThere-container.container'
-		.inside stage
+		.inside @film.display.stageEl
 
 		gelobiInGrotesk = El '#hiThere-gelobiInGrotesk'
 		.inside container
@@ -32,3 +32,13 @@ module.exports = class HiThereSet extends Set
 		@_setupDomEl 'Hi there', 'Cover', cover, [
 			'translation', 'scale'
 		]
+
+		@film.theatre.pieceBoundriesEventController.defineType 'hiThere',
+
+			fn: (forward, last, supposedT, currentT, args) ->
+
+				if forward then container.detach() else container.inside stage
+
+				return
+
+		@film.theatre.pieceBoundriesEventController.events.add 'hiThere', 4000

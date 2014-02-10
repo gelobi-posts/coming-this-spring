@@ -49,7 +49,7 @@
             id: "the-panels-Hi there-Web, Art, Tech-Opacity"
             _expanded: true
             actorPropId: "the-panels-Hi there-Web, Art, Tech-Opacity"
-            _height: 96
+            _height: 101
           }
           {
             id: "the-panels-Hi there-Web, Art, Tech-X"
@@ -77,14 +77,23 @@
           }
         ]
       }
+      {
+        name: "Panels"
+        propHolders: [
+          id: "the-panels-Panels - Background-Image-Opacity"
+          _expanded: false
+          actorPropId: "the-panels-Panels - Background-Image-Opacity"
+          _height: 180
+        ]
+      }
     ]
-    _activeWorkspaceName: "Hi there - web art, ...<br>"
+    _activeWorkspaceName: "Panels"
 
   timeControl:
-    t: 2419.620650339363
+    t: 6788.473673512247
     _focus:
-      from: 8.906579081003791
-      to: 4972.839986893783
+      from: 3554.165329183719
+      to: 8518.098736996497
 
     _lastPlayedTickAt: 0
 
@@ -327,21 +336,48 @@
 
       "the-panels-Panels - Background-Image-Opacity":
         pacs:
-          _idCounter: 1
-          chronologyLength: 278.8275159249763
+          _idCounter: 4
+          chronologyLength: 5816.4364157586815
           chronology:
             points: [
-              t: 278.8275159249763
-              value: 0
-              id: "the-panels-Panels - Background-Image-Opacity-point-1"
-              handler: [
-                100
-                0.05741581693291664
-                100
-                0.05741581693291664
-              ]
+              {
+                t: 278.8275159249763
+                value: 0
+                id: "the-panels-Panels - Background-Image-Opacity-point-1"
+                handler: [
+                  100
+                  0.05741581693291664
+                  100
+                  0.05741581693291664
+                ]
+              }
+              {
+                t: 5388.9206198705
+                value: 0
+                id: "the-panels-Panels - Background-Image-Opacity-point-2"
+                handler: [
+                  100
+                  -0.0003280903911218047
+                  76.2491226196289
+                  0.7958371639251709
+                ]
+              }
+              {
+                t: 5816.4364157586815
+                value: 1
+                id: "the-panels-Panels - Background-Image-Opacity-point-3"
+                handler: [
+                  200.9412384033203
+                  -0.11821099370718002
+                  100
+                  0.003844281891360879
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 5388.9206198705
+              id: "the-panels-Panels - Background-Image-Opacity-connector-4"
+            ]
 
       "the-panels-Hi there-Cover-Scale X":
         pacs:
@@ -541,7 +577,7 @@
 
       "the-panels-Hi there-Web, Art, Tech-Opacity":
         pacs:
-          _idCounter: 4
+          _idCounter: 5
           chronologyLength: 3488.410140059818
           chronology:
             points: [
@@ -581,13 +617,13 @@
             ]
             connectors: [
               t: 2542.310007551436
-              id: "the-panels-Hi there-Web, Art, Tech-Opacity-connector-4"
+              id: "the-panels-Hi there-Web, Art, Tech-Opacity-connector-5"
             ]
 
   mainBox:
-    height: 453
-    _isVisible: true
+    height: 309
+    _isVisible: false
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 67
 }

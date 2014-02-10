@@ -14,3 +14,5 @@ module.exports = class EditingTheatre
 		@film.tick @view.tick
 
 		@model.communicateWith 'http://localhost:6543', '1', 'qwerty'
+
+		@pieceBoundriesEventController = @timeline.addEventController 'Piece Boundries'

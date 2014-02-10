@@ -74,6 +74,21 @@ editorModel.graph.getGroup('Theatre').getActor('svg')
 
 
 
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'leftHandlerX', 'svg', 'setLeftHandlerX', 'get'
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'leftHandlerY', 'svg', 'setLeftHandlerY', 'get'
+
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'RightHandlerX', 'svg', 'setRightHandlerX', 'get'
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'RightHandlerY', 'svg', 'setRightHandlerY', 'get'
+
+
+
 timeline.addObject 'dayore', dayoreDum
 
 editorModel.graph.getGroup('Theatre').getActor('dayore')

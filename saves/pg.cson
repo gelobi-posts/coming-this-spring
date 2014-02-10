@@ -35,14 +35,38 @@
         }
         {
           id: "main-Theatre-svg-leftPointY"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-svg-leftPointY"
           _height: 180
         }
         {
           id: "main-Theatre-svg-RightPointY"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-svg-RightPointY"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-leftHandlerX"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-leftHandlerX"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-leftHandlerY"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-leftHandlerY"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-RightHandlerX"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-RightHandlerX"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-RightHandlerY"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-RightHandlerY"
           _height: 180
         }
       ]
@@ -50,10 +74,10 @@
     _activeWorkspaceName: "TJS"
 
   timeControl:
-    t: 0
+    t: 12259.768801395301
     _focus:
-      from: -12.948187894013245
-      to: 8212.77827858203
+      from: 6565.544641317025
+      to: 14791.271107793069
 
     _lastPlayedTickAt: 0
 
@@ -368,138 +392,182 @@
 
       "main-Theatre-svg-leftHandlerX":
         pacs:
-          _idCounter: 2
-          chronologyLength: 1244.7588639665562
+          _idCounter: 8
+          chronologyLength: 8273.770880660439
           chronology:
             points: [
               {
-                t: -9.000000000349246
-                value: 420
-                id: "main-Theatre-svg-leftHandlerX-point-0"
+                t: -13.64643871352746
+                value: 100
+                id: "main-Theatre-svg-leftHandlerX-point-3"
                 handler: [
                   100
-                  -0.0714285746216774
+                  5.214285850524902
                   100
-                  -0.0714285746216774
+                  5.214285850524902
                 ]
               }
               {
-                t: 1244.7588639665562
-                value: 150
-                id: "main-Theatre-svg-leftHandlerX-point-1"
+                t: 7219.720504302956
+                value: 100
+                id: "main-Theatre-svg-leftHandlerX-point-4"
                 handler: [
                   100
-                  -0.07387755066156387
+                  10.026071548461914
+                  358.345703125
+                  34.16163635253906
+                ]
+              }
+              {
+                t: 8273.770880660439
+                value: 800
+                id: "main-Theatre-svg-leftHandlerX-point-5"
+                handler: [
+                  348.0118713378906
+                  -23.575611114501953
                   100
-                  -0.07387755066156387
+                  10.903767585754395
                 ]
               }
             ]
             connectors: [
-              t: -9.000000000349246
-              id: "main-Theatre-svg-leftHandlerX-connector-2"
+              t: 7219.720504302956
+              id: "main-Theatre-svg-leftHandlerX-connector-8"
             ]
 
       "main-Theatre-svg-leftHandlerY":
         pacs:
-          _idCounter: 2
-          chronologyLength: 865.5734783984781
+          _idCounter: 9
+          chronologyLength: 8340.94075758518
           chronology:
             points: [
               {
-                t: -15.350901630801673
-                value: 50
-                id: "main-Theatre-svg-leftHandlerY-point-0"
+                t: -13.64643871352746
+                value: 170
+                id: "main-Theatre-svg-leftHandlerY-point-5"
                 handler: [
                   100
-                  1.7857142686843872
+                  4.357142925262451
                   100
-                  1.7857142686843872
+                  4.357142925262451
                 ]
               }
               {
-                t: 865.5734783984781
-                value: 20
-                id: "main-Theatre-svg-leftHandlerY-point-1"
+                t: 7250.721985960528
+                value: 170
+                id: "main-Theatre-svg-leftHandlerY-point-6"
                 handler: [
+                  730.3634643554688
+                  -3.4881131649017334
+                  425.5155944824219
+                  -4.036114692687988
+                ]
+              }
+              {
+                t: 8340.94075758518
+                value: 100
+                id: "main-Theatre-svg-leftHandlerY-point-7"
+                handler: [
+                  249.8404998779297
+                  6.962593078613281
                   100
-                  1.8698979616165161
-                  100
-                  1.8698979616165161
+                  18.591665267944336
                 ]
               }
             ]
             connectors: [
-              t: -15.350901630801673
-              id: "main-Theatre-svg-leftHandlerY-connector-2"
+              t: 7250.721985960528
+              id: "main-Theatre-svg-leftHandlerY-connector-9"
             ]
 
       "main-Theatre-svg-RightHandlerX":
         pacs:
-          _idCounter: 2
-          chronologyLength: 903.2097669978598
+          _idCounter: 6
+          chronologyLength: 9744.768885306708
           chronology:
             points: [
               {
-                t: -15.350901630801673
+                t: -13.64643871352746
                 value: 400
-                id: "main-Theatre-svg-RightHandlerX-point-0"
+                id: "main-Theatre-svg-RightHandlerX-point-3"
                 handler: [
                   100
-                  0.7870370149612427
-                  346.9881591796875
-                  82.26851654052734
+                  2.9285714626312256
+                  100
+                  2.9285714626312256
                 ]
               }
               {
-                t: 903.2097669978598
-                value: 1500
-                id: "main-Theatre-svg-RightHandlerX-point-1"
+                t: 8587.380236757315
+                value: 400
+                id: "main-Theatre-svg-RightHandlerX-point-4"
                 handler: [
-                  339.93133544921875
-                  -56.23380661010742
-                  111.76133728027344
-                  -39.924957275390625
+                  100
+                  40.25311279296875
+                  709.69580078125
+                  163.88206481933594
+                ]
+              }
+              {
+                t: 9744.768885306708
+                value: 1100
+                id: "main-Theatre-svg-RightHandlerX-point-5"
+                handler: [
+                  508.1861877441406
+                  -128.37841796875
+                  100
+                  41.03904724121094
                 ]
               }
             ]
             connectors: [
-              t: -15.350901630801673
-              id: "main-Theatre-svg-RightHandlerX-connector-2"
+              t: 8587.380236757315
+              id: "main-Theatre-svg-RightHandlerX-connector-6"
             ]
 
       "main-Theatre-svg-RightHandlerY":
         pacs:
-          _idCounter: 2
-          chronologyLength: 817.3519836305201
+          _idCounter: 6
+          chronologyLength: 9791.271107793069
           chronology:
             points: [
               {
-                t: -15.350901630801673
-                value: 0
-                id: "main-Theatre-svg-RightHandlerY-point-0"
+                t: -13.64643871352746
+                value: 100
+                id: "main-Theatre-svg-RightHandlerY-point-3"
                 handler: [
                   100
-                  1.6256157159805298
-                  277.5962219238281
-                  7.6054277420043945
+                  3.5714285373687744
+                  100
+                  3.5714285373687744
                 ]
               }
               {
-                t: 817.3519836305201
-                value: 150
-                id: "main-Theatre-svg-RightHandlerY-point-1"
+                t: 8582.21332314772
+                value: 100
+                id: "main-Theatre-svg-RightHandlerY-point-4"
                 handler: [
-                  292.885986328125
-                  0.24277418851852417
                   100
-                  1.737727165222168
+                  10.066326141357422
+                  265.34124755859375
+                  155.84481811523438
+                ]
+              }
+              {
+                t: 9791.271107793069
+                value: 200
+                id: "main-Theatre-svg-RightHandlerY-point-5"
+                handler: [
+                  280.84197998046875
+                  48.765464782714844
+                  177.5037078857422
+                  109.10004425048828
                 ]
               }
             ]
             connectors: [
-              t: -15.350901630801673
-              id: "main-Theatre-svg-RightHandlerY-connector-2"
+              t: 8582.21332314772
+              id: "main-Theatre-svg-RightHandlerY-connector-6"
             ]
 
       "main-Theatre-svg-leftPointX":
@@ -874,5 +942,5 @@
     _isVisible: true
 
   timelineEditor:
-    scrollTop: 177
+    scrollTop: 0
 }

@@ -11,7 +11,7 @@
         }
         {
           id: "main-Theatre-dayore-y"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-dayore-y"
           _height: 144
         }
@@ -34,21 +34,9 @@
           _height: 180
         }
         {
-          id: "main-Theatre-svg-leftPointX"
-          _expanded: true
-          actorPropId: "main-Theatre-svg-leftPointX"
-          _height: 180
-        }
-        {
           id: "main-Theatre-svg-leftPointY"
           _expanded: true
           actorPropId: "main-Theatre-svg-leftPointY"
-          _height: 180
-        }
-        {
-          id: "main-Theatre-svg-RightPointX"
-          _expanded: true
-          actorPropId: "main-Theatre-svg-RightPointX"
           _height: 180
         }
         {
@@ -64,8 +52,8 @@
   timeControl:
     t: 0
     _focus:
-      from: 0
-      to: 5320.717782306818
+      from: -12.948187894013245
+      to: 8212.77827858203
 
     _lastPlayedTickAt: 0
 
@@ -516,39 +504,79 @@
 
       "main-Theatre-svg-leftPointX":
         pacs:
-          _idCounter: 2
-          chronologyLength: -15.350901630801673
+          _idCounter: 4
+          chronologyLength: 4583.196656902593
           chronology:
             points: [
-              t: -15.350901630801673
-              value: 10
-              id: "main-Theatre-svg-leftPointX-point-0"
-              handler: [
-                100
-                0.3571428656578064
-                313.898193359375
-                0.027689503505825996
-              ]
+              {
+                t: -15.350901630801673
+                value: 10
+                id: "main-Theatre-svg-leftPointX-point-0"
+                handler: [
+                  100
+                  0.3571428656578064
+                  313.898193359375
+                  0.027689503505825996
+                ]
+              }
+              {
+                t: 4583.196656902593
+                value: 10
+                id: "main-Theatre-svg-leftPointX-point-3"
+                handler: [
+                  100
+                  1.0010204315185547
+                  100
+                  1.0010204315185547
+                ]
+              }
             ]
             connectors: []
 
       "main-Theatre-svg-leftPointY":
         pacs:
-          _idCounter: 2
-          chronologyLength: -15.350901630801673
+          _idCounter: 6
+          chronologyLength: 5662.937316116673
           chronology:
             points: [
-              t: -15.350901630801673
-              value: 250
-              id: "main-Theatre-svg-leftPointY-point-0"
-              handler: [
-                100
-                0.6428571343421936
-                100
-                0.6428571343421936
-              ]
+              {
+                t: -15.350901630801673
+                value: 250
+                id: "main-Theatre-svg-leftPointY-point-0"
+                handler: [
+                  100
+                  0.6428571343421936
+                  100
+                  0.6428571343421936
+                ]
+              }
+              {
+                t: 4965.40397882128
+                value: 250
+                id: "main-Theatre-svg-leftPointY-point-3"
+                handler: [
+                  100
+                  25.06658172607422
+                  342.8449401855469
+                  -16.199111938476562
+                ]
+              }
+              {
+                t: 5662.937316116673
+                value: 100
+                id: "main-Theatre-svg-leftPointY-point-4"
+                handler: [
+                  363.5126037597656
+                  9.570287704467773
+                  100
+                  27.076946258544922
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 4965.40397882128
+              id: "main-Theatre-svg-leftPointY-connector-6"
+            ]
 
       "main-Theatre-svg-RightPointX":
         pacs:
@@ -570,21 +598,48 @@
 
       "main-Theatre-svg-RightPointY":
         pacs:
-          _idCounter: 2
-          chronologyLength: -15.350901630801673
+          _idCounter: 14
+          chronologyLength: 6657.537282093784
           chronology:
             points: [
-              t: -15.350901630801673
-              value: 100
-              id: "main-Theatre-svg-RightPointY-point-0"
-              handler: [
-                100
-                0.4285714328289032
-                100
-                0.4285714328289032
-              ]
+              {
+                t: -15.350901630801673
+                value: 100
+                id: "main-Theatre-svg-RightPointY-point-0"
+                handler: [
+                  100
+                  0.4285714328289032
+                  100
+                  0.4285714328289032
+                ]
+              }
+              {
+                t: 6223.516538887761
+                value: 100
+                id: "main-Theatre-svg-RightPointY-point-3"
+                handler: [
+                  100
+                  10.039183616638184
+                  224.00592041015625
+                  18.048870086669922
+                ]
+              }
+              {
+                t: 6657.537282093784
+                value: 250
+                id: "main-Theatre-svg-RightPointY-point-4"
+                handler: [
+                  167.16989135742188
+                  -39.008636474609375
+                  100
+                  10.193718910217285
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 6223.516538887761
+              id: "main-Theatre-svg-RightPointY-connector-14"
+            ]
 
       "main-Theatre-dayore-rotateX":
         pacs:
@@ -819,5 +874,5 @@
     _isVisible: true
 
   timelineEditor:
-    scrollTop: 399
+    scrollTop: 177
 }

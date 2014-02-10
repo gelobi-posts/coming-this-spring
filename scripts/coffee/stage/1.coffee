@@ -9,6 +9,44 @@ DynamicTimeline = require 'theatrejs/scripts/js/lib/DynamicTimeline'
 theatreDum = DUM('.theatre',{z: 100, left: 0, bottom: 0, height: 400, width: 1600})
 .inside(document.body)
 
+mouseArrowDum = DUM('.mouse', {z: 200, top: 0, left: 0 , height: 23 , width: 23})
+.inside(theatreDum.node)
+.x(-100)
+
+mouseMoveDum = DUM('.mouse-move', {z: 200, top: -12, left: -12 , height: 23 , width: 23})
+.inside(theatreDum.node)
+.x(-100)
+
+
+mouse =
+
+	type: (type) ->
+
+		if 0 < type <= 1
+
+			mouseArrowDum.opacity(0)
+
+			mouseMoveDum.opacity(1)
+
+		if type <= 0
+
+			mouseArrowDum.opacity(1)
+
+			mouseMoveDum.opacity(0)
+
+	x: (x) ->
+
+		mouseArrowDum.x(x)
+
+		mouseMoveDum.x(x)
+
+	y: (y) ->
+
+		mouseArrowDum.y(y)
+
+		mouseMoveDum.y(y)
+
+
 seekerDum = DUM('.theatrejs-seekbar-seeker', {z: 100, top: 40})
 .inside(theatreDum.node)
 
@@ -23,6 +61,8 @@ curveStatic = DUM('.curve-static',{z: 100})
 
 dayoreDum = DUM('.dayore', {z: 100, top: 45, left: -100, height: 100, width: 100})
 .inside(document.body)
+
+
 
 
 
@@ -100,6 +140,17 @@ editorModel.graph.getGroup('Theatre').getActor('dayore')
 editorModel.graph.getGroup('Theatre').getActor('dayore')
 .addPropOfObject 'y', 'dayore', 'y', 0
 
+
+timeline.addObject 'mouse', mouse
+
+editorModel.graph.getGroup('Theatre').getActor('mouse')
+.addPropOfObject 'type', 'mouse', 'type', 0
+
+editorModel.graph.getGroup('Theatre').getActor('mouse')
+.addPropOfObject 'x', 'mouse', 'x', 0
+
+editorModel.graph.getGroup('Theatre').getActor('mouse')
+.addPropOfObject 'y', 'mouse', 'y', 0
 
 
 # and make the view visible

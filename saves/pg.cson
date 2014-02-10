@@ -4,36 +4,6 @@
       name: "TJS"
       propHolders: [
         {
-          id: "main-Theatre-dayore-rotateZ"
-          _expanded: false
-          actorPropId: "main-Theatre-dayore-rotateZ"
-          _height: 297
-        }
-        {
-          id: "main-Theatre-dayore-y"
-          _expanded: true
-          actorPropId: "main-Theatre-dayore-y"
-          _height: 144
-        }
-        {
-          id: "main-Theatre-dayore-x"
-          _expanded: true
-          actorPropId: "main-Theatre-dayore-x"
-          _height: 180
-        }
-        {
-          id: "main-Theatre-seeker-x"
-          _expanded: false
-          actorPropId: "main-Theatre-seeker-x"
-          _height: 180
-        }
-        {
-          id: "main-Theatre-Element-y"
-          _expanded: false
-          actorPropId: "main-Theatre-Element-y"
-          _height: 180
-        }
-        {
           id: "main-Theatre-svg-leftPointY"
           _expanded: false
           actorPropId: "main-Theatre-svg-leftPointY"
@@ -59,14 +29,32 @@
         }
         {
           id: "main-Theatre-svg-RightHandlerX"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-svg-RightHandlerX"
           _height: 180
         }
         {
           id: "main-Theatre-svg-RightHandlerY"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-svg-RightHandlerY"
+          _height: 168
+        }
+        {
+          id: "main-Theatre-mouse-type"
+          _expanded: false
+          actorPropId: "main-Theatre-mouse-type"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-mouse-x"
+          _expanded: false
+          actorPropId: "main-Theatre-mouse-x"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-mouse-y"
+          _expanded: false
+          actorPropId: "main-Theatre-mouse-y"
           _height: 180
         }
       ]
@@ -74,10 +62,10 @@
     _activeWorkspaceName: "TJS"
 
   timeControl:
-    t: 0
+    t: 16451.158409562042
     _focus:
-      from: 0
-      to: 9995.74443647241
+      from: 6599.84466303344
+      to: 20554.932286685456
 
     _lastPlayedTickAt: 0
 
@@ -664,8 +652,8 @@
                 handler: [
                   100
                   10.026071548461914
-                  691.1185913085938
-                  30.200788497924805
+                  126.03253936767578
+                  3.664146900177002
                 ]
               }
               {
@@ -673,8 +661,8 @@
                 value: 150
                 id: "main-Theatre-svg-leftHandlerX-point-5"
                 handler: [
-                  479.86529541015625
-                  -12.485234260559082
+                  467.3078308105469
+                  -0.3044807016849518
                   100
                   10.903767585754395
                 ]
@@ -709,8 +697,8 @@
                 handler: [
                   730.3634643554688
                   -3.4881131649017334
-                  601.3201293945312
-                  4.5226216316223145
+                  111.5788803100586
+                  5.687602519989014
                 ]
               }
               {
@@ -718,8 +706,8 @@
                 value: 230
                 id: "main-Theatre-svg-leftHandlerY-point-7"
                 handler: [
-                  475.8748779296875
-                  -4.083547592163086
+                  513.5473022460938
+                  -1.753585934638977
                   100
                   18.060543060302734
                 ]
@@ -1333,9 +1321,443 @@
               id: "main-Theatre-dayore-release-connector-3"
             ]
 
+      "main-Theatre-mouse-x":
+        pacs:
+          _idCounter: 19
+          chronologyLength: 10048.731679779039
+          chronology:
+            points: [
+              {
+                t: -5.172670498457592
+                value: -100
+                id: "main-Theatre-mouse-x-point-0"
+                handler: [
+                  100
+                  0.5
+                  100
+                  0.5
+                ]
+              }
+              {
+                t: 4302.038814061891
+                value: 10
+                id: "main-Theatre-mouse-x-point-1"
+                handler: [
+                  100
+                  -10.003213882446289
+                  100
+                  -10.003213882446289
+                ]
+              }
+              {
+                t: 5669.0852470891305
+                value: 10
+                id: "main-Theatre-mouse-x-point-4"
+                handler: [
+                  100
+                  -0.10000000149011612
+                  200.45974731445312
+                  -1.6714285612106323
+                ]
+              }
+              {
+                t: 6190.220164317277
+                value: 1220
+                id: "main-Theatre-mouse-x-point-5"
+                handler: [
+                  213.0172119140625
+                  -8.664285659790039
+                  100
+                  -8.664285659790039
+                ]
+              }
+              {
+                t: 6661.125210005362
+                value: 1220
+                id: "main-Theatre-mouse-x-point-7"
+                handler: [
+                  100
+                  123.88571166992188
+                  118.8362045288086
+                  -546.4898071289062
+                ]
+              }
+              {
+                t: 7169.702659348493
+                value: 100
+                id: "main-Theatre-mouse-x-point-8"
+                handler: [
+                  213.0172119140625
+                  91.0719985961914
+                  100
+                  -1.7492250204086304
+                ]
+              }
+              {
+                t: 8331.268438712435
+                value: 150
+                id: "main-Theatre-mouse-x-point-10"
+                handler: [
+                  508.1177062988281
+                  25.0657958984375
+                  62.32759475708008
+                  45.69273376464844
+                ]
+              }
+              {
+                t: 8582.417796412748
+                value: 400
+                id: "main-Theatre-mouse-x-point-12"
+                handler: [
+                  112.55746459960938
+                  -22.37616539001465
+                  555.8194580078125
+                  122.01240539550781
+                ]
+              }
+              {
+                t: 9803.29044016707
+                value: 800
+                id: "main-Theatre-mouse-x-point-14"
+                handler: [
+                  582.11669921875
+                  -77.03755187988281
+                  100
+                  26.097143173217773
+                ]
+              }
+              {
+                t: 10048.731679779039
+                value: 0
+                id: "main-Theatre-mouse-x-point-16"
+                handler: [
+                  108.7657470703125
+                  18.87771224975586
+                  100
+                  80.75852966308594
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 5669.0852470891305
+                id: "main-Theatre-mouse-x-connector-6"
+              }
+              {
+                t: 6661.125210005362
+                id: "main-Theatre-mouse-x-connector-9"
+              }
+              {
+                t: 7169.702659348493
+                id: "main-Theatre-mouse-x-connector-11"
+              }
+              {
+                t: 8331.268438712435
+                id: "main-Theatre-mouse-x-connector-13"
+              }
+              {
+                t: 8582.417796412748
+                id: "main-Theatre-mouse-x-connector-15"
+              }
+              {
+                t: 9803.29044016707
+                id: "main-Theatre-mouse-x-connector-19"
+              }
+            ]
+
+      "main-Theatre-mouse-y":
+        pacs:
+          _idCounter: 32
+          chronologyLength: 13297.655731834242
+          chronology:
+            points: [
+              {
+                t: 4471.662389577479
+                value: 450
+                id: "main-Theatre-mouse-y-point-8"
+                handler: [
+                  100
+                  24.31795883178711
+                  100
+                  3.978970527648926
+                ]
+              }
+              {
+                t: 4873.4036028301
+                value: 250
+                id: "main-Theatre-mouse-y-point-0"
+                handler: [
+                  100
+                  1.8571428060531616
+                  338.59185791015625
+                  -8.505215644836426
+                ]
+              }
+              {
+                t: 5670.8028135285895
+                value: 100
+                id: "main-Theatre-mouse-y-point-1"
+                handler: [
+                  326.0343933105469
+                  14.00928783416748
+                  181.62353515625
+                  50.42658996582031
+                ]
+              }
+              {
+                t: 6196.498898259784
+                value: 100
+                id: "main-Theatre-mouse-y-point-10"
+                handler: [
+                  87.44252014160156
+                  26.844308853149414
+                  269.52581787109375
+                  42.88650894165039
+                ]
+              }
+              {
+                t: 6673.682677890378
+                value: 250
+                id: "main-Theatre-mouse-y-point-12"
+                handler: [
+                  175.3448028564453
+                  -42.13714599609375
+                  231.85340881347656
+                  -92.93743896484375
+                ]
+              }
+              {
+                t: 7169.702659348493
+                value: 170
+                id: "main-Theatre-mouse-y-point-14"
+                handler: [
+                  219.2959442138672
+                  65.61295318603516
+                  93.72126770019531
+                  6.791560173034668
+                ]
+              }
+              {
+                t: 8324.989704769927
+                value: 230
+                id: "main-Theatre-mouse-y-point-16"
+                handler: [
+                  526.9539184570312
+                  3.0483808517456055
+                  68.60633087158203
+                  -29.036014556884766
+                ]
+              }
+              {
+                t: 8576.13906247024
+                value: 100
+                id: "main-Theatre-mouse-y-point-18"
+                handler: [
+                  118.8362045288086
+                  -2.601154327392578
+                  380.5042724609375
+                  10.386102676391602
+                ]
+              }
+              {
+                t: 9794.524681609499
+                value: 250
+                id: "main-Theatre-mouse-y-point-20"
+                handler: [
+                  818.792236328125
+                  85.12370300292969
+                  100
+                  23.20128059387207
+                ]
+              }
+              {
+                t: 10057.49743833661
+                value: 45
+                id: "main-Theatre-mouse-y-point-22"
+                handler: [
+                  100
+                  -2.5131351947784424
+                  284.0809326171875
+                  -2.5095043182373047
+                ]
+              }
+              {
+                t: 12009.089223871395
+                value: 45
+                id: "main-Theatre-mouse-y-point-27"
+                handler: [
+                  380.5042724609375
+                  4.944516658782959
+                  862.6210327148438
+                  84.8328857421875
+                ]
+              }
+              {
+                t: 13297.655731834242
+                value: 500
+                id: "main-Theatre-mouse-y-point-25"
+                handler: [
+                  100
+                  25.840240478515625
+                  100
+                  25.840240478515625
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 4471.662389577479
+                id: "main-Theatre-mouse-y-connector-9"
+              }
+              {
+                t: 4873.4036028301
+                id: "main-Theatre-mouse-y-connector-5"
+              }
+              {
+                t: 5670.8028135285895
+                id: "main-Theatre-mouse-y-connector-11"
+              }
+              {
+                t: 6196.498898259784
+                id: "main-Theatre-mouse-y-connector-13"
+              }
+              {
+                t: 6673.682677890378
+                id: "main-Theatre-mouse-y-connector-15"
+              }
+              {
+                t: 7169.702659348493
+                id: "main-Theatre-mouse-y-connector-17"
+              }
+              {
+                t: 8324.989704769927
+                id: "main-Theatre-mouse-y-connector-19"
+              }
+              {
+                t: 8576.13906247024
+                id: "main-Theatre-mouse-y-connector-21"
+              }
+              {
+                t: 9794.524681609499
+                id: "main-Theatre-mouse-y-connector-24"
+              }
+              {
+                t: 12009.089223871395
+                id: "main-Theatre-mouse-y-connector-32"
+              }
+            ]
+
+      "main-Theatre-mouse-type":
+        pacs:
+          _idCounter: 11
+          chronologyLength: 9793.298009337983
+          chronology:
+            points: [
+              {
+                t: 4314.6940410147845
+                value: 0
+                id: "main-Theatre-mouse-type-point-0"
+                handler: [
+                  112.55746459960938
+                  0.551654577255249
+                  56.048866271972656
+                  -0.3087998628616333
+                ]
+              }
+              {
+                t: 4835.828958242932
+                value: 1
+                id: "main-Theatre-mouse-type-point-1"
+                handler: [
+                  87.44253540039062
+                  -0.3716515898704529
+                  338.5918884277344
+                  0.7567256093025208
+                ]
+              }
+              {
+                t: 5669.0852470891305
+                value: 0
+                id: "main-Theatre-mouse-type-point-4"
+                handler: [
+                  206.7384796142578
+                  -0.042818158864974976
+                  181.62355041503906
+                  -0.1631891280412674
+                ]
+              }
+              {
+                t: 6209.056366144801
+                value: 1
+                id: "main-Theatre-mouse-type-point-6"
+                handler: [
+                  100
+                  -0.035306110978126526
+                  100
+                  -0.035306110978126526
+                ]
+              }
+              {
+                t: 6667.40394394787
+                value: 0
+                id: "main-Theatre-mouse-type-point-7"
+                handler: [
+                  100
+                  -0.02940461039543152
+                  100
+                  -0.02940461039543152
+                ]
+              }
+              {
+                t: 7175.981393291001
+                value: 1
+                id: "main-Theatre-mouse-type-point-8"
+                handler: [
+                  100
+                  0.10435222834348679
+                  100
+                  0.10435222834348679
+                ]
+              }
+              {
+                t: 8312.432236884912
+                value: 0
+                id: "main-Theatre-mouse-type-point-9"
+                handler: [
+                  100
+                  -0.0131754819303751
+                  100
+                  -0.0131754819303751
+                ]
+              }
+              {
+                t: 8576.13906247024
+                value: 1
+                id: "main-Theatre-mouse-type-point-10"
+                handler: [
+                  100
+                  0.10928066819906235
+                  100
+                  0.10928066819906235
+                ]
+              }
+              {
+                t: 9793.298009337983
+                value: 0
+                id: "main-Theatre-mouse-type-point-11"
+                handler: [
+                  100
+                  -0.004323230125010014
+                  100
+                  -0.004323230125010014
+                ]
+              }
+            ]
+            connectors: []
+
   mainBox:
     height: 352
-    _isVisible: false
+    _isVisible: true
 
   timelineEditor:
     scrollTop: 0

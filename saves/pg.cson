@@ -1,0 +1,896 @@
+{
+  workspaces:
+    workspaces: [
+      name: "TJS"
+      propHolders: [
+        {
+          id: "main-Theatre-dayore-rotateZ"
+          _expanded: true
+          actorPropId: "main-Theatre-dayore-rotateZ"
+          _height: 297
+        }
+        {
+          id: "main-Theatre-dayore-y"
+          _expanded: true
+          actorPropId: "main-Theatre-dayore-y"
+          _height: 272
+        }
+        {
+          id: "main-Theatre-dayore-x"
+          _expanded: true
+          actorPropId: "main-Theatre-dayore-x"
+          _height: 180
+        }
+      ]
+    ]
+    _activeWorkspaceName: "TJS"
+
+  timeControl:
+    t: 1707.382518855622
+    _focus:
+      from: -15.19455376197584
+      to: 5305.523228544844
+
+    _lastPlayedTickAt: 0
+
+  timeline:
+    _allProps:
+      "main-Theatre-Element-x":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 1275.514378206812
+          chronology:
+            points: [
+              {
+                t: 0
+                value: 0
+                id: "main-Theatre-Element-x-point-0"
+                handler: [
+                  100
+                  0.12448132783174515
+                  239.6754608154297
+                  1512.7119140625
+                ]
+              }
+              {
+                t: 1275.514378206812
+                value: 400
+                id: "main-Theatre-Element-x-point-1"
+                handler: [
+                  351.01446533203125
+                  -127.50521850585938
+                  0
+                  592.7405395507812
+                ]
+              }
+            ]
+            connectors: [
+              t: 0
+              id: "main-Theatre-Element-x-connector-4"
+            ]
+
+      "main-Theatre-Element-y":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 549.1146428232355
+          chronology:
+            points: [
+              {
+                t: -15.429686167491127
+                value: 330
+                id: "main-Theatre-Element-y-point-0"
+                handler: [
+                  100
+                  0.3125
+                  278.77239990234375
+                  -10.09351921081543
+                ]
+              }
+              {
+                t: 549.1146428232355
+                value: 0
+                id: "main-Theatre-Element-y-point-1"
+                handler: [
+                  304.6473083496094
+                  -16.075801849365234
+                  100
+                  0.340576171875
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.429686167491127
+              id: "main-Theatre-Element-y-connector-4"
+            ]
+
+      "main-Theatre-seeker-x":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 910.0752635951778
+          chronology:
+            points: [
+              {
+                t: -15.542209145867673
+                value: 7
+                id: "main-Theatre-seeker-x-point-0"
+                handler: [
+                  100
+                  0.7857142686843872
+                  192.9145965576172
+                  0.0891745388507843
+                ]
+              }
+              {
+                t: 910.0752635951778
+                value: 800
+                id: "main-Theatre-seeker-x-point-1"
+                handler: [
+                  151.74989318847656
+                  -0.03557761758565903
+                  100
+                  0.807602047920227
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.542209145867673
+              id: "main-Theatre-seeker-x-connector-3"
+            ]
+
+      "main-Theatre-dayore-x":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 4463.826681068212
+          chronology:
+            points: [
+              {
+                t: -15.42138163628988
+                value: 0
+                id: "main-Theatre-dayore-x-point-4"
+                handler: [
+                  100
+                  -0.0714285746216774
+                  284.08349609375
+                  399.9571228027344
+                ]
+              }
+              {
+                t: 4463.826681068212
+                value: 1000
+                id: "main-Theatre-dayore-x-point-5"
+                handler: [
+                  2347.636962890625
+                  -107.22918701171875
+                  100
+                  -0.07867346704006195
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.42138163628988
+              id: "main-Theatre-dayore-x-connector-7"
+            ]
+
+      "main-Theatre-dayore-y":
+        pacs:
+          _idCounter: 117
+          chronologyLength: 3320.5493536792783
+          chronology:
+            points: [
+              {
+                t: 0
+                value: 0
+                id: "main-Theatre-dayore-y-point-31"
+                handler: [
+                  100
+                  7.969348430633545
+                  348.1642761230469
+                  29.880441665649414
+                ]
+              }
+              {
+                t: 610.6558053481286
+                value: 400
+                id: "main-Theatre-dayore-y-point-32"
+                handler: [
+                  114.42811584472656
+                  -224.36199951171875
+                  66.07293701171875
+                  -154.7117919921875
+                ]
+              }
+              {
+                t: 952.3083915517998
+                value: 50
+                id: "main-Theatre-dayore-y-point-40"
+                handler: [
+                  170.30780029296875
+                  -6.939270973205566
+                  177.35702514648438
+                  -3.7875113487243652
+                ]
+              }
+              {
+                t: 1283.2165143474583
+                value: 400
+                id: "main-Theatre-dayore-y-point-43"
+                handler: [
+                  93.19349670410156
+                  -158.32598876953125
+                  78.69790649414062
+                  -169.56002807617188
+                ]
+              }
+              {
+                t: 1563.6785831009202
+                value: 120
+                id: "main-Theatre-dayore-y-point-53"
+                handler: [
+                  175.84022521972656
+                  2.612689971923828
+                  173.56243896484375
+                  1.771080732345581
+                ]
+              }
+              {
+                t: 1838.2407430298495
+                value: 400
+                id: "main-Theatre-dayore-y-point-55"
+                handler: [
+                  57.472923278808594
+                  -139.91197204589844
+                  77.94207763671875
+                  -138.20310974121094
+                ]
+              }
+              {
+                t: 2109.234403387353
+                value: 190
+                id: "main-Theatre-dayore-y-point-63"
+                handler: [
+                  104.54527282714844
+                  2.553191661834717
+                  100
+                  1.4608145952224731
+                ]
+              }
+              {
+                t: 2329.680088524908
+                value: 400
+                id: "main-Theatre-dayore-y-point-65"
+                handler: [
+                  47.72534942626953
+                  -105.23257446289062
+                  36.36619186401367
+                  -66.69708251953125
+                ]
+              }
+              {
+                t: 2500.1277832188935
+                value: 280
+                id: "main-Theatre-dayore-y-point-73"
+                handler: [
+                  104.5452651977539
+                  0.4863215684890747
+                  84.09154510498047
+                  2.0794332027435303
+                ]
+              }
+              {
+                t: 2631.9406671155757
+                value: 400
+                id: "main-Theatre-dayore-y-point-76"
+                handler: [
+                  15.912469863891602
+                  -72.52149963378906
+                  31.8209228515625
+                  -45.570831298828125
+                ]
+              }
+              {
+                t: 2777.389366587777
+                value: 320
+                id: "main-Theatre-dayore-y-point-78"
+                handler: [
+                  61.36518859863281
+                  1.4009709358215332
+                  72.7283706665039
+                  0.024718334898352623
+                ]
+              }
+              {
+                t: 2906.9296145552057
+                value: 399.6574318720577
+                id: "main-Theatre-dayore-y-point-79"
+                handler: [
+                  29.54828453063965
+                  -43.98567581176758
+                  34.09355926513672
+                  -39.85691452026367
+                ]
+              }
+              {
+                t: 3016.0161391593574
+                value: 350
+                id: "main-Theatre-dayore-y-point-80"
+                handler: [
+                  38.63882827758789
+                  0.4405613839626312
+                  47.7293701171875
+                  -3.546863317489624
+                ]
+              }
+              {
+                t: 3120.5573919050016
+                value: 400
+                id: "main-Theatre-dayore-y-point-88"
+                handler: [
+                  4.549291133880615
+                  -27.1121768951416
+                  22.730379104614258
+                  -18.748661041259766
+                ]
+              }
+              {
+                t: 3236.461824296912
+                value: 373.264
+                id: "main-Theatre-dayore-y-point-82"
+                handler: [
+                  54.547279357910156
+                  -2.8954946994781494
+                  47.7293815612793
+                  -2.8954949378967285
+                ]
+              }
+              {
+                t: 3320.5493536792783
+                value: 400
+                id: "main-Theatre-dayore-y-point-83"
+                handler: [
+                  0
+                  -16.922813415527344
+                  136.36216735839844
+                  -82.4390869140625
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 0
+                id: "main-Theatre-dayore-y-connector-39"
+              }
+              {
+                t: 610.6558053481286
+                id: "main-Theatre-dayore-y-connector-51"
+              }
+              {
+                t: 952.3083915517998
+                id: "main-Theatre-dayore-y-connector-52"
+              }
+              {
+                t: 1283.2165143474583
+                id: "main-Theatre-dayore-y-connector-61"
+              }
+              {
+                t: 1563.6785831009202
+                id: "main-Theatre-dayore-y-connector-62"
+              }
+              {
+                t: 1838.2407430298495
+                id: "main-Theatre-dayore-y-connector-71"
+              }
+              {
+                t: 2109.234403387353
+                id: "main-Theatre-dayore-y-connector-72"
+              }
+              {
+                t: 2329.680088524908
+                id: "main-Theatre-dayore-y-connector-112"
+              }
+              {
+                t: 2500.1277832188935
+                id: "main-Theatre-dayore-y-connector-113"
+              }
+              {
+                t: 2631.9406671155757
+                id: "main-Theatre-dayore-y-connector-108"
+              }
+              {
+                t: 2777.389366587777
+                id: "main-Theatre-dayore-y-connector-109"
+              }
+              {
+                t: 2906.9296145552057
+                id: "main-Theatre-dayore-y-connector-116"
+              }
+              {
+                t: 3016.0161391593574
+                id: "main-Theatre-dayore-y-connector-117"
+              }
+              {
+                t: 3120.5573919050016
+                id: "main-Theatre-dayore-y-connector-102"
+              }
+              {
+                t: 3236.461824296912
+                id: "main-Theatre-dayore-y-connector-103"
+              }
+            ]
+
+      "main-Theatre-svg-leftHandlerX":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1244.7588639665562
+          chronology:
+            points: [
+              {
+                t: -9.000000000349246
+                value: 420
+                id: "main-Theatre-svg-leftHandlerX-point-0"
+                handler: [
+                  100
+                  -0.0714285746216774
+                  100
+                  -0.0714285746216774
+                ]
+              }
+              {
+                t: 1244.7588639665562
+                value: 150
+                id: "main-Theatre-svg-leftHandlerX-point-1"
+                handler: [
+                  100
+                  -0.07387755066156387
+                  100
+                  -0.07387755066156387
+                ]
+              }
+            ]
+            connectors: [
+              t: -9.000000000349246
+              id: "main-Theatre-svg-leftHandlerX-connector-2"
+            ]
+
+      "main-Theatre-svg-leftHandlerY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 865.5734783984781
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 50
+                id: "main-Theatre-svg-leftHandlerY-point-0"
+                handler: [
+                  100
+                  1.7857142686843872
+                  100
+                  1.7857142686843872
+                ]
+              }
+              {
+                t: 865.5734783984781
+                value: 20
+                id: "main-Theatre-svg-leftHandlerY-point-1"
+                handler: [
+                  100
+                  1.8698979616165161
+                  100
+                  1.8698979616165161
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-leftHandlerY-connector-2"
+            ]
+
+      "main-Theatre-svg-RightHandlerX":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 903.2097669978598
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 400
+                id: "main-Theatre-svg-RightHandlerX-point-0"
+                handler: [
+                  100
+                  0.7870370149612427
+                  346.9881591796875
+                  82.26851654052734
+                ]
+              }
+              {
+                t: 903.2097669978598
+                value: 1500
+                id: "main-Theatre-svg-RightHandlerX-point-1"
+                handler: [
+                  339.93133544921875
+                  -56.23380661010742
+                  111.76133728027344
+                  -39.924957275390625
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-RightHandlerX-connector-2"
+            ]
+
+      "main-Theatre-svg-RightHandlerY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 817.3519836305201
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 0
+                id: "main-Theatre-svg-RightHandlerY-point-0"
+                handler: [
+                  100
+                  1.6256157159805298
+                  277.5962219238281
+                  7.6054277420043945
+                ]
+              }
+              {
+                t: 817.3519836305201
+                value: 150
+                id: "main-Theatre-svg-RightHandlerY-point-1"
+                handler: [
+                  292.885986328125
+                  0.24277418851852417
+                  100
+                  1.737727165222168
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-RightHandlerY-connector-2"
+            ]
+
+      "main-Theatre-svg-leftPointX":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1163.1353851373403
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 0
+                id: "main-Theatre-svg-leftPointX-point-0"
+                handler: [
+                  100
+                  0.3571428656578064
+                  100
+                  0.3571428656578064
+                ]
+              }
+              {
+                t: 1163.1353851373403
+                value: 400
+                id: "main-Theatre-svg-leftPointX-point-1"
+                handler: [
+                  100
+                  0.3780612349510193
+                  100
+                  0.3780612349510193
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-leftPointX-connector-2"
+            ]
+
+      "main-Theatre-svg-leftPointY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1183.1296634557616
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 0
+                id: "main-Theatre-svg-leftPointY-point-0"
+                handler: [
+                  100
+                  0.6428571343421936
+                  100
+                  0.6428571343421936
+                ]
+              }
+              {
+                t: 1183.1296634557616
+                value: 100
+                id: "main-Theatre-svg-leftPointY-point-1"
+                handler: [
+                  100
+                  0.6901530623435974
+                  100
+                  0.6901530623435974
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-leftPointY-connector-2"
+            ]
+
+      "main-Theatre-svg-RightPointX":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1270.163580841832
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 1500
+                id: "main-Theatre-svg-RightPointX-point-0"
+                handler: [
+                  100
+                  0.0714285746216774
+                  100
+                  0.0714285746216774
+                ]
+              }
+              {
+                t: 1270.163580841832
+                value: 1300
+                id: "main-Theatre-svg-RightPointX-point-1"
+                handler: [
+                  100
+                  0.0769897997379303
+                  100
+                  0.0769897997379303
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-RightPointX-connector-2"
+            ]
+
+      "main-Theatre-svg-RightPointY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1273.6919828980242
+          chronology:
+            points: [
+              {
+                t: -15.350901630801673
+                value: 0
+                id: "main-Theatre-svg-RightPointY-point-0"
+                handler: [
+                  100
+                  0.4285714328289032
+                  100
+                  0.4285714328289032
+                ]
+              }
+              {
+                t: 1273.6919828980242
+                value: 200
+                id: "main-Theatre-svg-RightPointY-point-1"
+                handler: [
+                  100
+                  0.4555101990699768
+                  100
+                  0.4555101990699768
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.350901630801673
+              id: "main-Theatre-svg-RightPointY-connector-2"
+            ]
+
+      "main-Theatre-dayore-rotateX":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 869.4527820856755
+          chronology:
+            points: [
+              {
+                t: -14.999999999796273
+                value: 0
+                id: "main-Theatre-dayore-rotateX-point-0"
+                handler: [
+                  100
+                  1.3571428060531616
+                  175.2725830078125
+                  0.022140052169561386
+                ]
+              }
+              {
+                t: 869.4527820856755
+                value: 0
+                id: "main-Theatre-dayore-rotateX-point-1"
+                handler: [
+                  243.4883575439453
+                  0.04854555428028107
+                  100
+                  1.3910714387893677
+                ]
+              }
+            ]
+            connectors: [
+              t: -14.999999999796273
+              id: "main-Theatre-dayore-rotateX-connector-2"
+            ]
+
+      "main-Theatre-dayore-rotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 874.7817777689219
+          chronology:
+            points: [
+              {
+                t: -15.551674410203304
+                value: 0
+                id: "main-Theatre-dayore-rotateY-point-0"
+                handler: [
+                  100
+                  1.5
+                  185.8577880859375
+                  0.04007137939333916
+                ]
+              }
+              {
+                t: 874.7817777689219
+                value: 0
+                id: "main-Theatre-dayore-rotateY-point-1"
+                handler: [
+                  231.7270050048828
+                  -0.023173470050096512
+                  100
+                  1.6221429109573364
+                ]
+              }
+            ]
+            connectors: [
+              t: -15.551674410203304
+              id: "main-Theatre-dayore-rotateY-connector-2"
+            ]
+
+      "main-Theatre-dayore-rotateZ":
+        pacs:
+          _idCounter: 35
+          chronologyLength: 4535.490321080845
+          chronology:
+            points: [
+              {
+                t: -10.230399080784991
+                value: 0
+                id: "main-Theatre-dayore-rotateZ-point-10"
+                handler: [
+                  100
+                  -0.19455252587795258
+                  100
+                  -0.19455252587795258
+                ]
+              }
+              {
+                t: 611.4112513646097
+                value: 60
+                id: "main-Theatre-dayore-rotateZ-point-11"
+                handler: [
+                  100
+                  -0.20704326033592224
+                  431.1385498046875
+                  -55.78842544555664
+                ]
+              }
+              {
+                t: 1778.2088070085294
+                value: 44.30045789364704
+                id: "main-Theatre-dayore-rotateZ-point-25"
+                handler: [
+                  267.10797119140625
+                  -49.444358825683594
+                  314.1629943847656
+                  -59.47923278808594
+                ]
+              }
+              {
+                t: 2623.7751379907063
+                value: 44.66003810733209
+                id: "main-Theatre-dayore-rotateZ-point-27"
+                handler: [
+                  53.474552154541016
+                  -18.52621841430664
+                  39.841129302978516
+                  -11.109957695007324
+                ]
+              }
+              {
+                t: 2864.410615582472
+                value: 48.289
+                id: "main-Theatre-dayore-rotateZ-point-19"
+                handler: [
+                  0
+                  -13.996448516845703
+                  1099.3056640625
+                  125.71621704101562
+                ]
+              }
+              {
+                t: 4535.490321080845
+                value: 180
+                id: "main-Theatre-dayore-rotateZ-point-33"
+                handler: [
+                  270.45013427734375
+                  -0.324599951505661
+                  100
+                  4.420368194580078
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: -10.230399080784991
+                id: "main-Theatre-dayore-rotateZ-connector-12"
+              }
+              {
+                t: 611.4112513646097
+                id: "main-Theatre-dayore-rotateZ-connector-29"
+              }
+              {
+                t: 1778.2088070085294
+                id: "main-Theatre-dayore-rotateZ-connector-32"
+              }
+              {
+                t: 2623.7751379907063
+                id: "main-Theatre-dayore-rotateZ-connector-28"
+              }
+              {
+                t: 2864.410615582472
+                id: "main-Theatre-dayore-rotateZ-connector-35"
+              }
+            ]
+
+      "main-Theatre-dayore-release":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 1058.092857524296
+          chronology:
+            points: [
+              {
+                t: -18.069769614276638
+                value: 0
+                id: "main-Theatre-dayore-release-point-0"
+                handler: [
+                  100
+                  -0.3571428656578064
+                  183.50550842285156
+                  0.006928532849997282
+                ]
+              }
+              {
+                t: 1058.092857524296
+                value: 2
+                id: "main-Theatre-dayore-release-point-1"
+                handler: [
+                  239.95994567871094
+                  -0.008235657587647438
+                  103.52840423583984
+                  0.07357347756624222
+                ]
+              }
+            ]
+            connectors: [
+              t: -18.069769614276638
+              id: "main-Theatre-dayore-release-connector-3"
+            ]
+
+  mainBox:
+    height: 542
+    _isVisible: true
+
+  timelineEditor:
+    scrollTop: 226
+}

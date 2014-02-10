@@ -6,31 +6,18 @@ EditorView = require 'theatrejs/scripts/js/lib/EditorView'
 EditorModel = require 'theatrejs/scripts/js/lib/EditorModel'
 DynamicTimeline = require 'theatrejs/scripts/js/lib/DynamicTimeline'
 
-# theatreDum = DUM('.theatre',{z: 100, left: 0, bottom: 0, height: 400, width: 1600})
-# .inside(document.body)
-
-# seekerDum = DUM('.theatrejs-seekbar-seeker', {z: 100, top: 40})
-# .inside(theatreDum.node)
-
-dayoreDum = DUM('.dayore', {z: 100, top: 100, left: 100, height: 100, width: 100})
+theatreDum = DUM('.theatre',{z: 100, left: 0, bottom: 0, height: 400, width: 1600})
 .inside(document.body)
 
-# svg2Dum = DUM('.sth2')
-# .inside(document.body)
+seekerDum = DUM('.theatrejs-seekbar-seeker', {z: 100, top: 40})
+.inside(theatreDum.node)
 
-# values =
+dayoreDum = DUM('.dayore', {z: 100, top: 45, left: -100, height: 100, width: 100})
+.inside(document.body)
 
-# 	leftPoint: [200, 100]
-# 	leftHandler: [422, 47]
-# 	rightHandler: [378, 4]
-# 	rightPoint: [1391, 0]
+svgCurver = new SvgCurver theatreDum, 330, 2100
 
-# # new CurvySvg parent, height, width, values object of arrays
-# svg = new CurvySvg svg2Dum, 150, 2100, values
-
-# svgCurver = new SvgCurver svg2Dum, 200, 2100
-
-# curve = svgCurver.newCurve {leftPointX: 200, leftPointY: 100, rightPointX: 1391, rightPointY: 0}, {leftHandlerX: 422, leftHandlerY: 50, rightHandlerX: 400, rightHandlerY: 20}
+curve = svgCurver.newCurve {leftPointX: 10, leftPointY: 300, rightPointX: 1200, rightPointY: 100}, {leftHandlerX: 100, leftHandlerY: 170, rightHandlerX: 400, rightHandlerY: 100}
 
 # instantiate theatrejs with 60fps
 timeline = new DynamicTimeline 60
@@ -51,15 +38,15 @@ Foxie.timing.onEachFrame view.tick
 # # set up the graph on our timeline
 # setupGraphOn editorModel, graph
 
-# timeline.addObject 'theatrejs', theatreDum
+timeline.addObject 'theatrejs', theatreDum
 
-# editorModel.graph.getGroup('Theatre').getActor('Element')
-# .addPropOfObject 'y', 'theatrejs', 'y', 'getY'
+editorModel.graph.getGroup('Theatre').getActor('Element')
+.addPropOfObject 'y', 'theatrejs', 'y', 'getY'
 
-# timeline.addObject 'seeker', seekerDum
+timeline.addObject 'seeker', seekerDum
 
-# editorModel.graph.getGroup('Theatre').getActor('seeker')
-# .addPropOfObject 'x', 'seeker', 'x', 'getX'
+editorModel.graph.getGroup('Theatre').getActor('seeker')
+.addPropOfObject 'x', 'seeker', 'x', 'getX'
 
 
 timeline.addObject 'dayore', dayoreDum

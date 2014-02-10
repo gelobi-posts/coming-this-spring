@@ -5,20 +5,32 @@
       propHolders: [
         {
           id: "main-Theatre-dayore-rotateZ"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-dayore-rotateZ"
           _height: 297
         }
         {
           id: "main-Theatre-dayore-y"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-dayore-y"
           _height: 272
         }
         {
           id: "main-Theatre-dayore-x"
-          _expanded: true
+          _expanded: false
           actorPropId: "main-Theatre-dayore-x"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-seeker-x"
+          _expanded: false
+          actorPropId: "main-Theatre-seeker-x"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-Element-y"
+          _expanded: true
+          actorPropId: "main-Theatre-Element-y"
           _height: 180
         }
       ]
@@ -26,10 +38,10 @@
     _activeWorkspaceName: "TJS"
 
   timeControl:
-    t: 0
+    t: 4745.929067429504
     _focus:
-      from: -12.592251725494862
-      to: 5308.125530581325
+      from: -5.469382678740658
+      to: 5315.248399628079
 
     _lastPlayedTickAt: 0
 
@@ -71,62 +83,62 @@
 
       "main-Theatre-Element-y":
         pacs:
-          _idCounter: 4
-          chronologyLength: 549.1146428232355
+          _idCounter: 16
+          chronologyLength: 572.6713431246021
           chronology:
             points: [
               {
-                t: -15.429686167491127
+                t: -16.799231126067546
                 value: 330
-                id: "main-Theatre-Element-y-point-0"
+                id: "main-Theatre-Element-y-point-14"
                 handler: [
                   100
-                  0.3125
-                  278.77239990234375
-                  -10.09351921081543
+                  4.95754861831665
+                  317.2403564453125
+                  -61.62093734741211
                 ]
               }
               {
-                t: 549.1146428232355
+                t: 572.6713431246021
                 value: 0
-                id: "main-Theatre-Element-y-point-1"
+                id: "main-Theatre-Element-y-point-6"
                 handler: [
-                  304.6473083496094
-                  -16.075801849365234
-                  100
-                  0.340576171875
+                  357.3462829589844
+                  36.3917350769043
+                  133.4215850830078
+                  3.3289244174957275
                 ]
               }
             ]
             connectors: [
-              t: -15.429686167491127
-              id: "main-Theatre-Element-y-connector-4"
+              t: -16.799231126067546
+              id: "main-Theatre-Element-y-connector-16"
             ]
 
       "main-Theatre-seeker-x":
         pacs:
-          _idCounter: 3
-          chronologyLength: 910.0752635951778
+          _idCounter: 5
+          chronologyLength: 3837.8069076283273
           chronology:
             points: [
               {
                 t: -15.542209145867673
-                value: 7
+                value: 0
                 id: "main-Theatre-seeker-x-point-0"
                 handler: [
                   100
                   0.7857142686843872
-                  192.9145965576172
-                  0.0891745388507843
+                  243.0469970703125
+                  102.99823760986328
                 ]
               }
               {
-                t: 910.0752635951778
-                value: 800
+                t: 3837.8069076283273
+                value: 1200
                 id: "main-Theatre-seeker-x-point-1"
                 handler: [
-                  151.74989318847656
-                  -0.03557761758565903
+                  175.14501953125
+                  -80.07595825195312
                   100
                   0.807602047920227
                 ]
@@ -134,13 +146,13 @@
             ]
             connectors: [
               t: -15.542209145867673
-              id: "main-Theatre-seeker-x-connector-3"
+              id: "main-Theatre-seeker-x-connector-5"
             ]
 
       "main-Theatre-dayore-x":
         pacs:
-          _idCounter: 12
-          chronologyLength: 4383.6148552042905
+          _idCounter: 31
+          chronologyLength: 4166.374493489504
           chronology:
             points: [
               {
@@ -155,7 +167,7 @@
                 ]
               }
               {
-                t: 4383.6148552042905
+                t: 4166.374493489504
                 value: 1000
                 id: "main-Theatre-dayore-x-point-5"
                 handler: [
@@ -168,13 +180,13 @@
             ]
             connectors: [
               t: -15.42138163628988
-              id: "main-Theatre-dayore-x-connector-12"
+              id: "main-Theatre-dayore-x-connector-31"
             ]
 
       "main-Theatre-dayore-y":
         pacs:
-          _idCounter: 117
-          chronologyLength: 3320.5493536792783
+          _idCounter: 131
+          chronologyLength: 3707.9029225020236
           chronology:
             points: [
               {
@@ -195,41 +207,19 @@
                 handler: [
                   114.42811584472656
                   -224.36199951171875
-                  66.07293701171875
-                  -154.7117919921875
+                  152.96908569335938
+                  -426.2698059082031
                 ]
               }
               {
-                t: 952.3083915517998
-                value: 50
-                id: "main-Theatre-dayore-y-point-40"
-                handler: [
-                  170.30780029296875
-                  -6.939270973205566
-                  177.35702514648438
-                  -3.7875113487243652
-                ]
-              }
-              {
-                t: 1283.2165143474583
+                t: 1303.2694708134388
                 value: 400
                 id: "main-Theatre-dayore-y-point-43"
                 handler: [
-                  93.19349670410156
-                  -158.32598876953125
-                  78.69790649414062
-                  -169.56002807617188
-                ]
-              }
-              {
-                t: 1563.6785831009202
-                value: 120
-                id: "main-Theatre-dayore-y-point-53"
-                handler: [
-                  175.84022521972656
-                  2.612689971923828
-                  173.56243896484375
-                  1.771080732345581
+                  163.37884521484375
+                  -411.7742614746094
+                  165.59405517578125
+                  -413.9302062988281
                 ]
               }
               {
@@ -237,21 +227,10 @@
                 value: 400
                 id: "main-Theatre-dayore-y-point-55"
                 handler: [
-                  57.472923278808594
-                  -139.91197204589844
-                  77.94207763671875
-                  -138.20310974121094
-                ]
-              }
-              {
-                t: 2109.234403387353
-                value: 190
-                id: "main-Theatre-dayore-y-point-63"
-                handler: [
-                  104.54527282714844
-                  2.553191661834717
-                  100
-                  1.4608145952224731
+                  60.81508255004883
+                  -257.5036315917969
+                  151.46958923339844
+                  -246.60792541503906
                 ]
               }
               {
@@ -259,21 +238,10 @@
                 value: 400
                 id: "main-Theatre-dayore-y-point-65"
                 handler: [
-                  47.72534942626953
-                  -105.23257446289062
-                  36.36619186401367
-                  -66.69708251953125
-                ]
-              }
-              {
-                t: 2500.1277832188935
-                value: 280
-                id: "main-Theatre-dayore-y-point-73"
-                handler: [
-                  104.5452651977539
-                  0.4863215684890747
-                  84.09154510498047
-                  2.0794332027435303
+                  117.91069793701172
+                  -198.9384307861328
+                  99.86721801757812
+                  -145.7039794921875
                 ]
               }
               {
@@ -281,21 +249,10 @@
                 value: 400
                 id: "main-Theatre-dayore-y-point-76"
                 handler: [
-                  15.912469863891602
-                  -72.52149963378906
-                  31.8209228515625
-                  -45.570831298828125
-                ]
-              }
-              {
-                t: 2777.389366587777
-                value: 320
-                id: "main-Theatre-dayore-y-point-78"
-                handler: [
-                  61.36518859863281
-                  1.4009709358215332
-                  72.7283706665039
-                  0.024718334898352623
+                  45.991905212402344
+                  -101.91941833496094
+                  88.63763427734375
+                  -91.50508117675781
                 ]
               }
               {
@@ -303,21 +260,10 @@
                 value: 399.6574318720577
                 id: "main-Theatre-dayore-y-point-79"
                 handler: [
-                  29.54828453063965
-                  -43.98567581176758
-                  34.09355926513672
-                  -39.85691452026367
-                ]
-              }
-              {
-                t: 3016.0161391593574
-                value: 350
-                id: "main-Theatre-dayore-y-point-80"
-                handler: [
-                  38.63882827758789
-                  0.4405613839626312
-                  47.7293701171875
-                  -3.546863317489624
+                  52.94340133666992
+                  -75.22096252441406
+                  74.19947052001953
+                  -65.58009338378906
                 ]
               }
               {
@@ -325,21 +271,10 @@
                 value: 400
                 id: "main-Theatre-dayore-y-point-88"
                 handler: [
-                  4.549291133880615
-                  -27.1121768951416
-                  22.730379104614258
-                  -18.748661041259766
-                ]
-              }
-              {
-                t: 3236.461824296912
-                value: 373.264
-                id: "main-Theatre-dayore-y-point-82"
-                handler: [
-                  54.547279357910156
-                  -2.8954946994781494
-                  47.7293815612793
-                  -2.8954949378967285
+                  14.575769424438477
+                  -41.811134338378906
+                  69.52061462402344
+                  -44.471839904785156
                 ]
               }
               {
@@ -347,10 +282,32 @@
                 value: 400
                 id: "main-Theatre-dayore-y-point-83"
                 handler: [
-                  0
-                  -16.922813415527344
-                  136.36216735839844
-                  -82.4390869140625
+                  13.368638038635254
+                  -31.62177276611328
+                  72.86113739013672
+                  -20.08669090270996
+                ]
+              }
+              {
+                t: 3524.084154897202
+                value: 400
+                id: "main-Theatre-dayore-y-point-128"
+                handler: [
+                  56.55192565917969
+                  -21.984920501708984
+                  73.26272583007812
+                  -3.882613182067871
+                ]
+              }
+              {
+                t: 3707.9029225020236
+                value: 400
+                id: "main-Theatre-dayore-y-point-130"
+                handler: [
+                  106.68431854248047
+                  -11.050765037536621
+                  100
+                  39.41060256958008
                 ]
               }
             ]
@@ -361,59 +318,39 @@
               }
               {
                 t: 610.6558053481286
-                id: "main-Theatre-dayore-y-connector-51"
+                id: "main-Theatre-dayore-y-connector-121"
               }
               {
-                t: 952.3083915517998
-                id: "main-Theatre-dayore-y-connector-52"
-              }
-              {
-                t: 1283.2165143474583
-                id: "main-Theatre-dayore-y-connector-61"
-              }
-              {
-                t: 1563.6785831009202
-                id: "main-Theatre-dayore-y-connector-62"
+                t: 1303.2694708134388
+                id: "main-Theatre-dayore-y-connector-122"
               }
               {
                 t: 1838.2407430298495
-                id: "main-Theatre-dayore-y-connector-71"
-              }
-              {
-                t: 2109.234403387353
-                id: "main-Theatre-dayore-y-connector-72"
+                id: "main-Theatre-dayore-y-connector-123"
               }
               {
                 t: 2329.680088524908
-                id: "main-Theatre-dayore-y-connector-112"
-              }
-              {
-                t: 2500.1277832188935
-                id: "main-Theatre-dayore-y-connector-113"
+                id: "main-Theatre-dayore-y-connector-124"
               }
               {
                 t: 2631.9406671155757
-                id: "main-Theatre-dayore-y-connector-108"
-              }
-              {
-                t: 2777.389366587777
-                id: "main-Theatre-dayore-y-connector-109"
+                id: "main-Theatre-dayore-y-connector-125"
               }
               {
                 t: 2906.9296145552057
-                id: "main-Theatre-dayore-y-connector-116"
-              }
-              {
-                t: 3016.0161391593574
-                id: "main-Theatre-dayore-y-connector-117"
+                id: "main-Theatre-dayore-y-connector-126"
               }
               {
                 t: 3120.5573919050016
-                id: "main-Theatre-dayore-y-connector-102"
+                id: "main-Theatre-dayore-y-connector-127"
               }
               {
-                t: 3236.461824296912
-                id: "main-Theatre-dayore-y-connector-103"
+                t: 3320.5493536792783
+                id: "main-Theatre-dayore-y-connector-129"
+              }
+              {
+                t: 3524.084154897202
+                id: "main-Theatre-dayore-y-connector-131"
               }
             ]
 
@@ -759,7 +696,7 @@
 
       "main-Theatre-dayore-rotateZ":
         pacs:
-          _idCounter: 54
+          _idCounter: 62
           chronologyLength: 4461.962814038917
           chronology:
             points: [
@@ -823,19 +760,30 @@
                 value: 280
                 id: "main-Theatre-dayore-rotateZ-point-19"
                 handler: [
-                  30.079437255859375
-                  -0.5805816054344177
-                  892.0918579101562
-                  88.74319458007812
+                  20.052955627441406
+                  -4.118444442749023
+                  33.15690994262695
+                  0.5659582018852234
+                ]
+              }
+              {
+                t: 4149.0679647535935
+                value: 450
+                id: "main-Theatre-dayore-rotateZ-point-61"
+                handler: [
+                  851.98583984375
+                  -42.26447677612305
+                  133.42160034179688
+                  -0.40849238634109497
                 ]
               }
               {
                 t: 4461.962814038917
-                value: 400
+                value: 450
                 id: "main-Theatre-dayore-rotateZ-point-33"
                 handler: [
-                  270.45013427734375
-                  -0.324599951505661
+                  136.76394653320312
+                  0.7500351071357727
                   100
                   4.420368194580078
                 ]
@@ -864,7 +812,11 @@
               }
               {
                 t: 2620.4329785797095
-                id: "main-Theatre-dayore-rotateZ-connector-54"
+                id: "main-Theatre-dayore-rotateZ-connector-60"
+              }
+              {
+                t: 4149.0679647535935
+                id: "main-Theatre-dayore-rotateZ-connector-62"
               }
             ]
 
@@ -903,9 +855,9 @@
             ]
 
   mainBox:
-    height: 542
-    _isVisible: true
+    height: 352
+    _isVisible: false
 
   timelineEditor:
-    scrollTop: 226
+    scrollTop: 0
 }

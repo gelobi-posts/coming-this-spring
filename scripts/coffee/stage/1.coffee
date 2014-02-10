@@ -12,12 +12,19 @@ theatreDum = DUM('.theatre',{z: 100, left: 0, bottom: 0, height: 400, width: 160
 seekerDum = DUM('.theatrejs-seekbar-seeker', {z: 100, top: 40})
 .inside(theatreDum.node)
 
+svgCurver = new SvgCurver theatreDum, 330, 2100
+
+curve = svgCurver.newCurve {leftPointX: 10, leftPointY: 250, rightPointX: 1220, rightPointY: 100}, {leftHandlerX: 100, leftHandlerY: 170, rightHandlerX: 400, rightHandlerY: 100}
+
+
+curveStatic = DUM('.curve-static',{z: 100})
+.inside(theatreDum)
+
+
 dayoreDum = DUM('.dayore', {z: 100, top: 45, left: -100, height: 100, width: 100})
 .inside(document.body)
 
-svgCurver = new SvgCurver theatreDum, 330, 2100
 
-curve = svgCurver.newCurve {leftPointX: 10, leftPointY: 300, rightPointX: 1200, rightPointY: 100}, {leftHandlerX: 100, leftHandlerY: 170, rightHandlerX: 400, rightHandlerY: 100}
 
 # instantiate theatrejs with 60fps
 timeline = new DynamicTimeline 60
@@ -49,6 +56,24 @@ editorModel.graph.getGroup('Theatre').getActor('seeker')
 .addPropOfObject 'x', 'seeker', 'x', 'getX'
 
 
+
+timeline.addObject 'svg', curve
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'leftPointX', 'svg', 'setLeftPointX', 'get'
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'leftPointY', 'svg', 'setLeftPointY', 'get'
+
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'RightPointX', 'svg', 'setRightPointX', 'get'
+
+editorModel.graph.getGroup('Theatre').getActor('svg')
+.addPropOfObject 'RightPointY', 'svg', 'setRightPointY', 'get'
+
+
+
 timeline.addObject 'dayore', dayoreDum
 
 editorModel.graph.getGroup('Theatre').getActor('dayore')
@@ -59,22 +84,6 @@ editorModel.graph.getGroup('Theatre').getActor('dayore')
 
 editorModel.graph.getGroup('Theatre').getActor('dayore')
 .addPropOfObject 'y', 'dayore', 'y', 0
-
-
-# timeline.addObject 'svg', curve
-
-# editorModel.graph.getGroup('Theatre').getActor('svg')
-# .addPropOfObject 'leftPointX', 'svg', 'setLeftPointX', 'get'
-
-# editorModel.graph.getGroup('Theatre').getActor('svg')
-# .addPropOfObject 'leftPointY', 'svg', 'setLeftPointY', 'get'
-
-
-# editorModel.graph.getGroup('Theatre').getActor('svg')
-# .addPropOfObject 'RightPointX', 'svg', 'setRightPointX', 'get'
-
-# editorModel.graph.getGroup('Theatre').getActor('svg')
-# .addPropOfObject 'RightPointY', 'svg', 'setRightPointY', 'get'
 
 
 

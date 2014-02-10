@@ -90,10 +90,10 @@
     _activeWorkspaceName: "Hi There - gelobi"
 
   timeControl:
-    t: 6268.571959048374
+    t: 3866.8616822142867
     _focus:
-      from: 4956.571959057571
-      to: 9920.50536687035
+      from: -1.3358690511013265
+      to: 4962.597538761676
 
     _lastPlayedTickAt: 0
 
@@ -640,7 +640,7 @@
 
   mainBox:
     height: 309
-    _isVisible: true
+    _isVisible: false
 
   timelineEditor:
     scrollTop: 134

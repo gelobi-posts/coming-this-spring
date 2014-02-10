@@ -26,10 +26,10 @@
     _activeWorkspaceName: "TJS"
 
   timeControl:
-    t: 1707.382518855622
+    t: 0
     _focus:
-      from: -15.19455376197584
-      to: 5305.523228544844
+      from: -12.592251725494862
+      to: 5308.125530581325
 
     _lastPlayedTickAt: 0
 
@@ -139,8 +139,8 @@
 
       "main-Theatre-dayore-x":
         pacs:
-          _idCounter: 7
-          chronologyLength: 4463.826681068212
+          _idCounter: 12
+          chronologyLength: 4383.6148552042905
           chronology:
             points: [
               {
@@ -155,7 +155,7 @@
                 ]
               }
               {
-                t: 4463.826681068212
+                t: 4383.6148552042905
                 value: 1000
                 id: "main-Theatre-dayore-x-point-5"
                 handler: [
@@ -168,7 +168,7 @@
             ]
             connectors: [
               t: -15.42138163628988
-              id: "main-Theatre-dayore-x-connector-7"
+              id: "main-Theatre-dayore-x-connector-12"
             ]
 
       "main-Theatre-dayore-y":
@@ -759,8 +759,8 @@
 
       "main-Theatre-dayore-rotateZ":
         pacs:
-          _idCounter: 35
-          chronologyLength: 4535.490321080845
+          _idCounter: 54
+          chronologyLength: 4461.962814038917
           chronology:
             points: [
               {
@@ -770,8 +770,8 @@
                 handler: [
                   100
                   -0.19455252587795258
-                  100
-                  -0.19455252587795258
+                  323.9246826171875
+                  61.130062103271484
                 ]
               }
               {
@@ -779,48 +779,59 @@
                 value: 60
                 id: "main-Theatre-dayore-rotateZ-point-11"
                 handler: [
-                  100
-                  -0.20704326033592224
-                  431.1385498046875
-                  -55.78842544555664
+                  43.183284759521484
+                  2.9417104721069336
+                  461.2179870605469
+                  79.2606201171875
                 ]
               }
               {
-                t: 1778.2088070085294
-                value: 44.30045789364704
+                t: 1268.1946600607746
+                value: 120
+                id: "main-Theatre-dayore-rotateZ-point-49"
+                handler: [
+                  53.20977020263672
+                  -1.5256744623184204
+                  267.10797119140625
+                  49.440399169921875
+                ]
+              }
+              {
+                t: 1774.8666475975326
+                value: 180
                 id: "main-Theatre-dayore-rotateZ-point-25"
                 handler: [
-                  267.10797119140625
-                  -49.444358825683594
+                  29.81464195251465
+                  2.8572144508361816
                   314.1629943847656
-                  -59.47923278808594
+                  58.98691940307617
                 ]
               }
               {
-                t: 2623.7751379907063
-                value: 44.66003810733209
+                t: 2296.243515713025
+                value: 240
                 id: "main-Theatre-dayore-rotateZ-point-27"
                 handler: [
-                  53.474552154541016
-                  -18.52621841430664
-                  39.841129302978516
-                  -11.109957695007324
+                  46.790225982666016
+                  2.620630979537964
+                  133.42160034179688
+                  46.04533386230469
                 ]
               }
               {
-                t: 2864.410615582472
-                value: 48.289
+                t: 2620.4329785797095
+                value: 280
                 id: "main-Theatre-dayore-rotateZ-point-19"
                 handler: [
-                  0
-                  -13.996448516845703
-                  1099.3056640625
-                  125.71621704101562
+                  30.079437255859375
+                  -0.5805816054344177
+                  892.0918579101562
+                  88.74319458007812
                 ]
               }
               {
-                t: 4535.490321080845
-                value: 180
+                t: 4461.962814038917
+                value: 400
                 id: "main-Theatre-dayore-rotateZ-point-33"
                 handler: [
                   270.45013427734375
@@ -837,19 +848,23 @@
               }
               {
                 t: 611.4112513646097
-                id: "main-Theatre-dayore-rotateZ-connector-29"
+                id: "main-Theatre-dayore-rotateZ-connector-36"
               }
               {
-                t: 1778.2088070085294
-                id: "main-Theatre-dayore-rotateZ-connector-32"
+                t: 1268.1946600607746
+                id: "main-Theatre-dayore-rotateZ-connector-50"
               }
               {
-                t: 2623.7751379907063
-                id: "main-Theatre-dayore-rotateZ-connector-28"
+                t: 1774.8666475975326
+                id: "main-Theatre-dayore-rotateZ-connector-51"
               }
               {
-                t: 2864.410615582472
-                id: "main-Theatre-dayore-rotateZ-connector-35"
+                t: 2296.243515713025
+                id: "main-Theatre-dayore-rotateZ-connector-53"
+              }
+              {
+                t: 2620.4329785797095
+                id: "main-Theatre-dayore-rotateZ-connector-54"
               }
             ]
 

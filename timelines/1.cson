@@ -44,7 +44,7 @@
     _activeWorkspaceName: "Playground"
 
   timeControl:
-    t: 416.8168677241721
+    t: 1564.937086342976
     _focus:
       from: 3.357114988833473
       to: 2030.6436445298486
@@ -378,7 +378,7 @@
             connectors: []
 
   mainBox:
-    height: 465
+    height: 275
     _isVisible: true
 
   timelineEditor:

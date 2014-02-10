@@ -10,10 +10,13 @@ module.exports = class Display
 		@el = El '#display'
 		.inside document.body
 
+		@width = ab.width
+		@height = ab.height
+
 		@viewEl = El '#view'
-		.inside display
 		.width ab.width
 		.height ab.height
+		.inside display
 
 		@stageLayerEl = El '#stageLayer'
 		.inside @viewEl
@@ -22,8 +25,6 @@ module.exports = class Display
 		.inside @viewEl
 
 		@stageEl = El '#stage'
-		.set 'width', ab.width
-		.set 'height', ab.height
 		.perspective 800
 		.inside @stageLayerEl
 

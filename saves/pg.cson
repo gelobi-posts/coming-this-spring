@@ -4,9 +4,33 @@
       name: "TJS"
       propHolders: [
         {
+          id: "main-Theatre-Element-y"
+          _expanded: false
+          actorPropId: "main-Theatre-Element-y"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-seeker-x"
+          _expanded: false
+          actorPropId: "main-Theatre-seeker-x"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-leftPointX"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-leftPointX"
+          _height: 180
+        }
+        {
           id: "main-Theatre-svg-leftPointY"
           _expanded: false
           actorPropId: "main-Theatre-svg-leftPointY"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-svg-RightPointX"
+          _expanded: false
+          actorPropId: "main-Theatre-svg-RightPointX"
           _height: 180
         }
         {
@@ -37,7 +61,25 @@
           id: "main-Theatre-svg-RightHandlerY"
           _expanded: false
           actorPropId: "main-Theatre-svg-RightHandlerY"
-          _height: 168
+          _height: 180
+        }
+        {
+          id: "main-Theatre-dayore-rotateZ"
+          _expanded: false
+          actorPropId: "main-Theatre-dayore-rotateZ"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-dayore-x"
+          _expanded: false
+          actorPropId: "main-Theatre-dayore-x"
+          _height: 180
+        }
+        {
+          id: "main-Theatre-dayore-y"
+          _expanded: false
+          actorPropId: "main-Theatre-dayore-y"
+          _height: 180
         }
         {
           id: "main-Theatre-mouse-type"
@@ -47,13 +89,13 @@
         }
         {
           id: "main-Theatre-mouse-x"
-          _expanded: false
+          _expanded: true
           actorPropId: "main-Theatre-mouse-x"
           _height: 180
         }
         {
           id: "main-Theatre-mouse-y"
-          _expanded: false
+          _expanded: true
           actorPropId: "main-Theatre-mouse-y"
           _height: 180
         }
@@ -62,10 +104,10 @@
     _activeWorkspaceName: "TJS"
 
   timeControl:
-    t: 16395.751746357004
+    t: 15701.4641622965
     _focus:
-      from: 6599.8446630334365
-      to: 20554.932286685456
+      from: 14864.387204141007
+      to: 16981.855103020665
 
     _lastPlayedTickAt: 0
 
@@ -1422,8 +1464,8 @@
                 handler: [
                   582.11669921875
                   -77.03755187988281
-                  100
-                  26.097143173217773
+                  22.856069564819336
+                  -407.0685729980469
                 ]
               }
               {
@@ -1431,8 +1473,8 @@
                 value: 0
                 id: "main-Theatre-mouse-x-point-16"
                 handler: [
-                  108.7657470703125
-                  18.87771224975586
+                  208.5208282470703
+                  -12.062695503234863
                   100
                   80.75852966308594
                 ]
@@ -1478,8 +1520,8 @@
                 handler: [
                   100
                   24.31795883178711
-                  100
-                  3.978970527648926
+                  25.54864501953125
+                  -71.9765625
                 ]
               }
               {
@@ -1487,8 +1529,8 @@
                 value: 250
                 id: "main-Theatre-mouse-y-point-0"
                 handler: [
-                  100
-                  1.8571428060531616
+                  360.5797424316406
+                  -18.858001708984375
                   338.59185791015625
                   -8.505215644836426
                 ]
@@ -1566,8 +1608,8 @@
                 handler: [
                   818.792236328125
                   85.12370300292969
-                  100
-                  23.20128059387207
+                  44.13715362548828
+                  -145.97239685058594
                 ]
               }
               {
@@ -1575,8 +1617,8 @@
                 value: 45
                 id: "main-Theatre-mouse-y-point-22"
                 handler: [
-                  100
-                  -2.5131351947784424
+                  181.13414001464844
+                  7.844437122344971
                   284.0809326171875
                   -2.5095043182373047
                 ]
@@ -1757,8 +1799,8 @@
 
   mainBox:
     height: 352
-    _isVisible: true
+    _isVisible: false
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 447
 }

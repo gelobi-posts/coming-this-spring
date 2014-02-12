@@ -56,6 +56,7 @@ module.exports = class PanelsSet extends Set
 			left: 550
 
 		.inside @container
+		.preserve3d()
 
 		@_setupDomEl  'Panels - Login', 'Platform', platform, [
 			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'

@@ -76,7 +76,7 @@ module.exports = class PanelsSet extends Set
 		.inside @container
 
 		@_setupDomEl  'Panels - Login', 'Button', button, [
-			'opacity', 'rotation', 'translation'
+			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'
 		]
 
 		buttonArrow = El '#panels-login-button-arrow',
@@ -108,7 +108,7 @@ module.exports = class PanelsSet extends Set
 			left: 32
 
 		@_setupDomEl  'Panels - Login', 'UN Container', unContainer, [
-			'opacity', 'rotation', 'translation'
+			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'
 		]
 
 		pwContainer = El '#panels-login-pw-container', inputContainer
@@ -118,7 +118,7 @@ module.exports = class PanelsSet extends Set
 			left: 299
 
 		@_setupDomEl  'Panels - Login', 'PW Container', pwContainer, [
-			'opacity', 'rotation', 'translation'
+			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'
 		]
 
 		unText = El '#panels-login-un-text'

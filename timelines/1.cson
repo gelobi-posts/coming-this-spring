@@ -141,44 +141,103 @@
           }
           {
             id: "the-panels-Panels - Login-PW Container-Local Z"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-PW Container-Local Z"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-PW Container-Transform Origin X"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-PW Container-Transform Origin X"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-Forgot-Opacity"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-Forgot-Opacity"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-Forgot-Rotation Y"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-Forgot-Rotation Y"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-Forgot-Transform Origin X"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-Forgot-Transform Origin X"
             _height: 80
           }
         ]
       }
+      {
+        name: "Panels Transition"
+        propHolders: [
+          {
+            id: "the-panels-Panels - Login-Platform-Rotation Y"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Rotation Y"
+            _height: 181
+          }
+          {
+            id: "the-panels-Panels - Login-Forgot-Rotation Y"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Forgot-Rotation Y"
+            _height: 128
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-Z"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Z"
+            _height: 80
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-X"
+            _expanded: false
+            actorPropId: "the-panels-Panels - Login-Platform-X"
+            _height: 152
+          }
+          {
+            id: "the-panels-Panels - Login-Forgot-X"
+            _expanded: false
+            actorPropId: "the-panels-Panels - Login-Forgot-X"
+            _height: 80
+          }
+          {
+            id: "the-panels-Panels - Login-Button-Opacity"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Button-Opacity"
+            _height: 80
+          }
+          {
+            id: "the-panels-Panels - Login-Button-X"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Button-X"
+            _height: 144
+          }
+          {
+            id: "the-panels-Panels - Login-Button-Rotation Y"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Button-Rotation Y"
+            _height: 211
+          }
+          {
+            id: "the-panels-Panels - Login-Button-Transform Origin X"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Button-Transform Origin X"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "panels login"
+    _activeWorkspaceName: "Panels Transition"
 
   timeControl:
-    t: 9752.892932446399
+    t: 10678.645617294716
     _focus:
-      from: 8664.003362582363
-      to: 11950.327118561909
+      from: 8420.280787378148
+      to: 11706.604543357698
 
     _lastPlayedTickAt: 0
 
@@ -833,16 +892,26 @@
 
       "the-panels-Panels - Login-Platform-Z":
         pacs:
-          _idCounter: 5
-          chronologyLength: 6846.682742186903
+          _idCounter: 8
+          chronologyLength: 9473.791273744788
           chronology:
-            points: []
+            points: [
+              t: 9473.791273744788
+              value: 0
+              id: "the-panels-Panels - Login-Platform-Z-point-6"
+              handler: [
+                100
+                -2.25
+                100
+                -2.25
+              ]
+            ]
             connectors: []
 
       "the-panels-Panels - Login-Platform-Rotation Y":
         pacs:
-          _idCounter: 9
-          chronologyLength: 7011.246209400248
+          _idCounter: 12
+          chronologyLength: 10541.060292582642
           chronology:
             points: [
               {
@@ -867,19 +936,73 @@
                   10.826571464538574
                 ]
               }
+              {
+                t: 9465.929255189812
+                value: 0
+                id: "the-panels-Panels - Login-Platform-Rotation Y-point-10"
+                handler: [
+                  100
+                  0
+                  927.4774169921875
+                  0.46410855650901794
+                ]
+              }
+              {
+                t: 10541.060292582642
+                value: 50
+                id: "the-panels-Panels - Login-Platform-Rotation Y-point-11"
+                handler: [
+                  738.7889404296875
+                  -0.2057546228170395
+                  100
+                  0.902896523475647
+                ]
+              }
             ]
             connectors: [
-              t: 6321.942629751869
-              id: "the-panels-Panels - Login-Platform-Rotation Y-connector-9"
+              {
+                t: 6321.942629751869
+                id: "the-panels-Panels - Login-Platform-Rotation Y-connector-9"
+              }
+              {
+                t: 9465.929255189812
+                id: "the-panels-Panels - Login-Platform-Rotation Y-connector-12"
+              }
             ]
 
       "the-panels-Panels - Login-Platform-X":
         pacs:
-          _idCounter: 4
-          chronologyLength: 6883.942395140862
+          _idCounter: 7
+          chronologyLength: 10531.232769388924
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 9471.825769106043
+                value: 0
+                id: "the-panels-Panels - Login-Platform-X-point-5"
+                handler: [
+                  100
+                  -0.25
+                  534.3765258789062
+                  -47.26521682739258
+                ]
+              }
+              {
+                t: 10531.232769388924
+                value: -1500
+                id: "the-panels-Panels - Login-Platform-X-point-6"
+                handler: [
+                  449.8598327636719
+                  405.12548828125
+                  100
+                  -0.028750000521540642
+                ]
+              }
+            ]
+            connectors: [
+              t: 9471.825769106043
+              id: "the-panels-Panels - Login-Platform-X-connector-7"
+            ]
 
       "the-panels-Panels - Login-Platform-Local Z":
         pacs:
@@ -917,8 +1040,8 @@
 
       "the-panels-Panels - Login-Button-Rotation Y":
         pacs:
-          _idCounter: 12
-          chronologyLength: 6870.4013874924485
+          _idCounter: 16
+          chronologyLength: 10533.198274027678
           chronology:
             points: [
               {
@@ -943,27 +1066,68 @@
                   0.2142857164144516
                 ]
               }
+              {
+                t: 9735.203390697716
+                value: 0
+                id: "the-panels-Panels - Login-Button-Rotation Y-point-13"
+                handler: [
+                  100
+                  1.3619047403335571
+                  459.68731689453125
+                  -4.661487579345703
+                ]
+              }
+              {
+                t: 10533.198274027678
+                value: -180
+                id: "the-panels-Panels - Login-Button-Rotation Y-point-14"
+                handler: [
+                  520.6179809570312
+                  10.289891242980957
+                  100
+                  1.8571428060531616
+                ]
+              }
             ]
             connectors: [
-              t: 6195.311950535266
-              id: "the-panels-Panels - Login-Button-Rotation Y-connector-12"
+              {
+                t: 6195.311950535266
+                id: "the-panels-Panels - Login-Button-Rotation Y-connector-12"
+              }
+              {
+                t: 9735.203390697716
+                id: "the-panels-Panels - Login-Button-Rotation Y-connector-16"
+              }
             ]
 
       "the-panels-Panels - Login-Button-Transform Origin X":
         pacs:
-          _idCounter: 0
-          chronologyLength: 6194.115778286462
+          _idCounter: 1
+          chronologyLength: 9296.895856257861
           chronology:
             points: [
-              t: 6194.115778286462
-              value: 390
-              id: "the-panels-Panels - Login-Button-Transform Origin X-point-0"
-              handler: [
-                100
-                1.9285714626312256
-                100
-                1.9285714626312256
-              ]
+              {
+                t: 6194.115778286462
+                value: 390
+                id: "the-panels-Panels - Login-Button-Transform Origin X-point-0"
+                handler: [
+                  100
+                  1.9285714626312256
+                  100
+                  1.9285714626312256
+                ]
+              }
+              {
+                t: 9296.895856257861
+                value: 0
+                id: "the-panels-Panels - Login-Button-Transform Origin X-point-1"
+                handler: [
+                  100
+                  39.067501068115234
+                  100
+                  39.067501068115234
+                ]
+              }
             ]
             connectors: []
 
@@ -1109,8 +1273,8 @@
 
       "the-panels-Panels - Login-Forgot-Rotation Y":
         pacs:
-          _idCounter: 2
-          chronologyLength: 7152.530295388424
+          _idCounter: 8
+          chronologyLength: 10588.2324039125
           chronology:
             points: [
               {
@@ -1135,10 +1299,106 @@
                   -0.5
                 ]
               }
+              {
+                t: 9471.825769106048
+                value: 0
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-point-3"
+                handler: [
+                  100
+                  0.17874999344348907
+                  929.4429931640625
+                  0.8487902283668518
+                ]
+              }
+              {
+                t: 10588.2324039125
+                value: 50
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-point-4"
+                handler: [
+                  746.6510620117188
+                  -0.8718708753585815
+                  100
+                  0.33125001192092896
+                ]
+              }
             ]
             connectors: [
-              t: 6450.845139356908
-              id: "the-panels-Panels - Login-Forgot-Rotation Y-connector-2"
+              {
+                t: 6450.845139356908
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-connector-2"
+              }
+              {
+                t: 9471.825769106048
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-connector-8"
+              }
+            ]
+
+      "the-panels-Panels - Login-Forgot-X":
+        pacs:
+          _idCounter: 8
+          chronologyLength: 10586.266899273744
+          chronology:
+            points: [
+              {
+                t: 9469.860264467294
+                value: 0
+                id: "the-panels-Panels - Login-Forgot-X-point-0"
+                handler: [
+                  100
+                  -1.25
+                  361.412109375
+                  49.82637023925781
+                ]
+              }
+              {
+                t: 10586.266899273744
+                value: -1500
+                id: "the-panels-Panels - Login-Forgot-X-point-1"
+                handler: [
+                  508.824951171875
+                  618.2573852539062
+                  100
+                  -0.04062499850988388
+                ]
+              }
+            ]
+            connectors: [
+              t: 9469.860264467294
+              id: "the-panels-Panels - Login-Forgot-X-connector-8"
+            ]
+
+      "the-panels-Panels - Login-Button-X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 10533.198274027673
+          chronology:
+            points: [
+              {
+                t: 9471.825769106048
+                value: 0
+                id: "the-panels-Panels - Login-Button-X-point-0"
+                handler: [
+                  100
+                  -0.25
+                  597.272705078125
+                  -35.54344177246094
+                ]
+              }
+              {
+                t: 10533.198274027673
+                value: -917.6075643000545
+                id: "the-panels-Panels - Login-Button-X-point-1"
+                handler: [
+                  605.1347045898438
+                  105.85844421386719
+                  100
+                  -0.02187499962747097
+                ]
+              }
+            ]
+            connectors: [
+              t: 9471.825769106048
+              id: "the-panels-Panels - Login-Button-X-connector-2"
             ]
 
   mainBox:
@@ -1146,7 +1406,7 @@
     _isVisible: true
 
   timelineEditor:
-    scrollTop: 143
+    scrollTop: 517
     guides:
       _list: [
         6194.638815492494
@@ -1154,5 +1414,8 @@
         6871.552958150021
         7012.979466037615
         9469.860264467301
+        9532.756412907105
+        10537.129283305154
+        10588.2324039125
       ]
 }

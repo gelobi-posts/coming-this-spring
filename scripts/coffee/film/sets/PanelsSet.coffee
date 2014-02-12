@@ -48,14 +48,18 @@ module.exports = class PanelsSet extends Set
 		platform = El '#panels-login-platform'
 		.width 529
 		.height 49
-		.x 550
-		.y 432
 		.css
 
 			background: '#000'
 			position: 'absolute'
+			top: 432
+			left: 550
 
 		.inside @container
+
+		@_setupDomEl  'Panels - Login', 'Platform', platform, [
+			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'
+		]
 
 		button = El '#panels-login-button'
 		.width 58
@@ -63,21 +67,25 @@ module.exports = class PanelsSet extends Set
 		.css
 
 			position: 'absolute'
-
 			border: '2px solid rgba(255, 255, 255, 0.4)'
-
 			background: 'rgba(222, 222, 222, 0.67)'
-
 			borderRadius: '2px'
+			top: 431
+			left: 1093
 
-		.x 1093
-		.y 431
 		.inside @container
+
+		@_setupDomEl  'Panels - Login', 'Button', button, [
+			'opacity', 'rotation', 'translation'
+		]
 
 		buttonArrow = El '#panels-login-button-arrow',
 
-			x: 22
-			y: 8
+			css:
+
+				top: 8
+				left: 22
+
 			inside: button
 
 		inputContainer =
@@ -94,16 +102,24 @@ module.exports = class PanelsSet extends Set
 			inside: platform
 
 		unContainer = El '#panels-login-un-container', inputContainer
-		.from
+		.from css:
 
-			x: 32
-			y: 15
+			top: 15
+			left: 32
+
+		@_setupDomEl  'Panels - Login', 'UN Container', unContainer, [
+			'opacity', 'rotation', 'translation'
+		]
 
 		pwContainer = El '#panels-login-pw-container', inputContainer
-		.from
+		.from css:
 
-			x: 299
-			y: 15
+			top: 15
+			left: 299
+
+		@_setupDomEl  'Panels - Login', 'PW Container', pwContainer, [
+			'opacity', 'rotation', 'translation'
+		]
 
 		unText = El '#panels-login-un-text'
 		.inside unContainer
@@ -115,9 +131,15 @@ module.exports = class PanelsSet extends Set
 
 		forgot = El '#panels-login-forgot',
 
-			x: 730
-			y: 516
+			css:
+
+				top: 516
+				left: 730
 
 			html: 'Forgot your password?'
 
 			inside: @container
+
+		@_setupDomEl  'Panels - Login', 'Forgot', forgot, [
+			'opacity', 'rotation', 'translation'
+		]

@@ -65,6 +65,18 @@ module.exports = class Film
 			actor.addPropOfObject 'Y', objName, 'y', 0
 			actor.addPropOfObject 'Z', objName, 'z', 0
 
+		if not shouldAccountForProps or 'localTranslation' in props
+
+			actor.addPropOfObject 'Local X', objName, 'localX', 0
+			actor.addPropOfObject 'Local Y', objName, 'localY', 0
+			actor.addPropOfObject 'Local Z', objName, 'localZ', 0
+
+		if not shouldAccountForProps or 'transformOrigin' in props
+
+			actor.addPropOfObject 'Transform Origin X', objName, 'transformOriginX', 0
+			actor.addPropOfObject 'Transform Origin Y', objName, 'transformOriginY', 0
+			actor.addPropOfObject 'Transform Origin Z', objName, 'transformOriginZ', 0
+
 		if not shouldAccountForProps or 'scale' in props
 
 			actor.addPropOfObject 'Scale X', objName, 'scaleX', 1

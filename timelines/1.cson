@@ -66,7 +66,7 @@
         ]
       }
       {
-        name: "Panels"
+        name: "Panels bg"
         propHolders: [
           {
             id: "the-panels-Panels - Background-Image-Opacity"
@@ -88,14 +88,49 @@
           }
         ]
       }
+      {
+        name: "panels login"
+        propHolders: [
+          {
+            id: "the-panels-Panels - Login-Platform-Rotation Y"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Rotation Y"
+            _height: 90
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-Local X"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Local X"
+            _height: 85
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-Local Z"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Local Z"
+            _height: 93
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-Opacity"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Opacity"
+            _height: 180
+          }
+          {
+            id: "the-panels-Panels - Login-Platform-Transform Origin X"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Platform-Transform Origin X"
+            _height: 180
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Panels"
+    _activeWorkspaceName: "panels login"
 
   timeControl:
-    t: 6256.738237082439
+    t: 6977.214202852561
     _focus:
-      from: 5370.2689938859885
-      to: 7966.024816345646
+      from: 5480.214202835565
+      to: 8075.97002529522
 
     _lastPlayedTickAt: 0
 
@@ -620,12 +655,182 @@
             points: []
             connectors: []
 
+      "the-panels-Panels - Login-Platform-Opacity":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 6879.284938521617
+          chronology:
+            points: [
+              {
+                t: 6193.0863299527355
+                value: 0
+                id: "the-panels-Panels - Login-Platform-Opacity-point-3"
+                handler: [
+                  73.60774230957031
+                  0.2339949756860733
+                  264.5634765625
+                  0.6017444729804993
+                ]
+              }
+              {
+                t: 6879.284938521617
+                value: 1
+                id: "the-panels-Panels - Login-Platform-Opacity-point-4"
+                handler: [
+                  290.9557189941406
+                  -0.10987026989459991
+                  117.07733917236328
+                  -0.19626222550868988
+                ]
+              }
+            ]
+            connectors: [
+              t: 6193.0863299527355
+              id: "the-panels-Panels - Login-Platform-Opacity-connector-6"
+            ]
+
+      "the-panels-Panels - Login-Button-Opacity":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 6511.345865601196
+          chronology:
+            points: [
+              t: 6511.345865601196
+              value: 0
+              id: "the-panels-Panels - Login-Button-Opacity-point-6"
+              handler: [
+                100
+                1.0714285373687744
+                100
+                1.0714285373687744
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Panels - Login-Forgot-Opacity":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 6516.003322220455
+          chronology:
+            points: [
+              t: 6516.003322220455
+              value: 0
+              id: "the-panels-Panels - Login-Forgot-Opacity-point-0"
+              handler: [
+                100
+                0.11500000208616257
+                100
+                0.11500000208616257
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Panels - Login-UN Container-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 6514.450836680693
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-PW Container-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 6520.660778839688
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-Platform-Z":
+        pacs:
+          _idCounter: 5
+          chronologyLength: 6846.682742186903
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-Platform-Rotation Y":
+        pacs:
+          _idCounter: 5
+          chronologyLength: 6862.207597584382
+          chronology:
+            points: [
+              {
+                t: 6194.638815492484
+                value: 26.183673483984798
+                id: "the-panels-Panels - Login-Platform-Rotation Y-point-0"
+                handler: [
+                  100
+                  1.6428571939468384
+                  126.39225769042969
+                  -12.115816116333008
+                ]
+              }
+              {
+                t: 6862.207597584382
+                value: 0
+                id: "the-panels-Panels - Login-Platform-Rotation Y-point-1"
+                handler: [
+                  284.74578857421875
+                  0.24346931278705597
+                  100
+                  2.098571538925171
+                ]
+              }
+            ]
+            connectors: [
+              t: 6194.638815492484
+              id: "the-panels-Panels - Login-Platform-Rotation Y-connector-5"
+            ]
+
+      "the-panels-Panels - Login-Platform-X":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 6883.942395140862
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-Platform-Local Z":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 6874.62748190237
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-Platform-Local X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 6885.494880680611
+          chronology:
+            points: []
+            connectors: []
+
+      "the-panels-Panels - Login-Platform-Transform Origin X":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 6195.910036659669
+          chronology:
+            points: [
+              t: 6195.910036659669
+              value: 680
+              id: "the-panels-Panels - Login-Platform-Transform Origin X-point-0"
+              handler: [
+                39.45306396484375
+                0.007916701957583427
+                31.690637588500977
+                0.008163265883922577
+              ]
+            ]
+            connectors: []
+
   mainBox:
-    height: 413
+    height: 452
     _isVisible: true
 
   timelineEditor:
-    scrollTop: -103
+    scrollTop: 0
     guides:
-      _list: [6134.091879442306]
+      _list: [6194.638815492494]
 }

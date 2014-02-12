@@ -142,5 +142,5 @@ module.exports = class PanelsSet extends Set
 			inside: @container
 
 		@_setupDomEl  'Panels - Login', 'Forgot', forgot, [
-			'opacity', 'rotation', 'translation'
+			'opacity', 'rotation', 'translation', 'localTranslation', 'transformOrigin'
 		]

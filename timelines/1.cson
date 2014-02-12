@@ -123,19 +123,19 @@
           }
           {
             id: "the-panels-Panels - Login-UN Container-Opacity"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-UN Container-Opacity"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-UN Container-Transform Origin X"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-UN Container-Transform Origin X"
             _height: 80
           }
           {
             id: "the-panels-Panels - Login-UN Container-Local Z"
-            _expanded: true
+            _expanded: false
             actorPropId: "the-panels-Panels - Login-UN Container-Local Z"
             _height: 95
           }
@@ -151,16 +151,34 @@
             actorPropId: "the-panels-Panels - Login-PW Container-Transform Origin X"
             _height: 80
           }
+          {
+            id: "the-panels-Panels - Login-Forgot-Opacity"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Forgot-Opacity"
+            _height: 80
+          }
+          {
+            id: "the-panels-Panels - Login-Forgot-Rotation Y"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Forgot-Rotation Y"
+            _height: 80
+          }
+          {
+            id: "the-panels-Panels - Login-Forgot-Transform Origin X"
+            _expanded: true
+            actorPropId: "the-panels-Panels - Login-Forgot-Transform Origin X"
+            _height: 80
+          }
         ]
       }
     ]
     _activeWorkspaceName: "panels login"
 
   timeControl:
-    t: 7602.630857660741
+    t: 9752.892932446399
     _focus:
-      from: 5503.471903482425
-      to: 8789.79565946196
+      from: 8664.003362582363
+      to: 11950.327118561909
 
     _lastPlayedTickAt: 0
 
@@ -755,21 +773,37 @@
 
       "the-panels-Panels - Login-Forgot-Opacity":
         pacs:
-          _idCounter: 6
-          chronologyLength: 6516.003322220455
+          _idCounter: 8
+          chronologyLength: 7156.4613046659115
           chronology:
             points: [
-              t: 6516.003322220455
-              value: 0
-              id: "the-panels-Panels - Login-Forgot-Opacity-point-0"
-              handler: [
-                100
-                0.11500000208616257
-                100
-                0.11500000208616257
-              ]
+              {
+                t: 6451.141669141911
+                value: 0
+                id: "the-panels-Panels - Login-Forgot-Opacity-point-0"
+                handler: [
+                  100
+                  0.11500000208616257
+                  168.79266357421875
+                  0.6195999979972839
+                ]
+              }
+              {
+                t: 7156.4613046659115
+                value: 1
+                id: "the-panels-Panels - Login-Forgot-Opacity-point-7"
+                handler: [
+                  300.4814758300781
+                  -0.14217999577522278
+                  100
+                  0.009200000204145908
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 6451.141669141911
+              id: "the-panels-Panels - Login-Forgot-Opacity-connector-8"
+            ]
 
       "the-panels-Panels - Login-UN Container-Opacity":
         pacs:
@@ -1055,17 +1089,70 @@
               id: "the-panels-Panels - Login-PW Container-Local Z-connector-2"
             ]
 
+      "the-panels-Panels - Login-Forgot-Transform Origin X":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 6433.155597608214
+          chronology:
+            points: [
+              t: 6433.155597608214
+              value: 500
+              id: "the-panels-Panels - Login-Forgot-Transform Origin X-point-0"
+              handler: [
+                100
+                5.25
+                100
+                5.25
+              ]
+            ]
+            connectors: []
+
+      "the-panels-Panels - Login-Forgot-Rotation Y":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 7152.530295388424
+          chronology:
+            points: [
+              {
+                t: 6450.845139356908
+                value: 30
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-point-1"
+                handler: [
+                  100
+                  -0.05874999985098839
+                  202.20623779296875
+                  -17.483749389648438
+                ]
+              }
+              {
+                t: 7152.530295388424
+                value: 0
+                id: "the-panels-Panels - Login-Forgot-Rotation Y-point-0"
+                handler: [
+                  261.17138671875
+                  0.5250002145767212
+                  100
+                  -0.5
+                ]
+              }
+            ]
+            connectors: [
+              t: 6450.845139356908
+              id: "the-panels-Panels - Login-Forgot-Rotation Y-connector-2"
+            ]
+
   mainBox:
     height: 382
     _isVisible: true
 
   timelineEditor:
-    scrollTop: 124
+    scrollTop: 143
     guides:
       _list: [
         6194.638815492494
         6321.911809824663
         6871.552958150021
         7012.979466037615
+        9469.860264467301
       ]
 }

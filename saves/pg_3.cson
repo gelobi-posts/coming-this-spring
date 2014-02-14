@@ -1,0 +1,315 @@
+{
+  workspaces:
+    workspaces: [
+      name: "PET"
+      propHolders: [
+        {
+          id: "main-AwesomePie-AwesomePie-PieDeg"
+          _expanded: true
+          actorPropId: "main-AwesomePie-AwesomePie-PieDeg"
+          _height: 180
+        }
+        {
+          id: "main-AwesomePie-AwesomePie-PieDegStart"
+          _expanded: true
+          actorPropId: "main-AwesomePie-AwesomePie-PieDegStart"
+          _height: 180
+        }
+      ]
+    ]
+    _activeWorkspaceName: "PET"
+
+  timeline:
+    _allProps:
+      null:
+        pacs:
+          _idCounter: 2
+          chronologyLength: 726.5295699605582
+          chronology:
+            points: [
+              {
+                t: -7.227153354509538
+                value: 0
+                id: "main-Tiles-body-X-point-0"
+                handler: [
+                  100
+                  0.1428571492433548
+                  100
+                  0.1428571492433548
+                ]
+              }
+              {
+                t: 726.5295699605582
+                value: -1100
+                id: "main-Tiles-body-X-point-1"
+                handler: [
+                  100
+                  0.15020407736301422
+                  100
+                  0.15020407736301422
+                ]
+              }
+            ]
+            connectors: [
+              t: -7.227153354509538
+              id: "main-Tiles-body-X-connector-2"
+            ]
+
+      "main-Tiles-body-X":
+        pacs:
+          _idCounter: 6
+          chronologyLength: 1649.9437514206224
+          chronology:
+            points: [
+              {
+                t: -1.0088760382801496
+                value: 0
+                id: "main-Tiles-body-X-point-0"
+                handler: [
+                  100
+                  -1.1428571939468384
+                  368.94049072265625
+                  273.7623596191406
+                ]
+              }
+              {
+                t: 1649.9437514206224
+                value: -1300
+                id: "main-Tiles-body-X-point-1"
+                handler: [
+                  535.2793579101562
+                  -219.31924438476562
+                  0
+                  1571.5943603515625
+                ]
+              }
+            ]
+            connectors: [
+              t: -1.0088760382801496
+              id: "main-Tiles-body-X-connector-6"
+            ]
+
+      "main-Tiles-container1-Z":
+        pacs:
+          _idCounter: 10
+          chronologyLength: -2.563445367337497
+          chronology:
+            points: []
+            connectors: []
+
+      "main-Tiles-container1-RotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 627.0371329008881
+          chronology:
+            points: [
+              {
+                t: -14.999999999796273
+                value: 0
+                id: "main-Tiles-container1-RotateY-point-0"
+                handler: [
+                  100
+                  0.2142857164144516
+                  490.1968994140625
+                  0.891978919506073
+                ]
+              }
+              {
+                t: 627.0371329008881
+                value: 10
+                id: "main-Tiles-container1-RotateY-point-1"
+                handler: [
+                  100
+                  0.22316326200962067
+                  100
+                  0.22316326200962067
+                ]
+              }
+            ]
+            connectors: [
+              t: -14.999999999796273
+              id: "main-Tiles-container1-RotateY-connector-2"
+            ]
+
+      "main-Tiles-container2-RotateY":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 1236.428309891368
+          chronology:
+            points: [
+              {
+                t: 558.6360824223648
+                value: 0
+                id: "main-Tiles-container2-RotateY-point-1"
+                handler: [
+                  100
+                  0.4285714328289032
+                  313.78240966796875
+                  1.0979541540145874
+                ]
+              }
+              {
+                t: 1236.428309891368
+                value: 20
+                id: "main-Tiles-container2-RotateY-point-2"
+                handler: [
+                  340.958251953125
+                  0.6671894788742065
+                  100
+                  0.4662244915962219
+                ]
+              }
+            ]
+            connectors: [
+              t: 558.6360824223648
+              id: "main-Tiles-container2-RotateY-connector-7"
+            ]
+
+      "main-Tiles-container3-RotateY":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 1623.4646838657013
+          chronology:
+            points: [
+              {
+                t: 951.6861939902388
+                value: 0
+                id: "main-Tiles-container3-RotateY-point-0"
+                handler: [
+                  100
+                  2.5
+                  342.5867004394531
+                  3.1293530464172363
+                ]
+              }
+              {
+                t: 1623.4646838657013
+                value: 40
+                id: "main-Tiles-container3-RotateY-point-1"
+                handler: [
+                  100
+                  2.705357074737549
+                  100
+                  2.705357074737549
+                ]
+              }
+            ]
+            connectors: [
+              t: 951.6861939902388
+              id: "main-Tiles-container3-RotateY-connector-4"
+            ]
+
+      "main-Tiles-container4-RotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 888.7023457705022
+          chronology:
+            points: [
+              {
+                t: -11.667435798694287
+                value: -5
+                id: "main-Tiles-container4-RotateY-point-0"
+                handler: [
+                  100
+                  0.0714285746216774
+                  307.5982360839844
+                  2.04034686088562
+                ]
+              }
+              {
+                t: 888.7023457705022
+                value: 0
+                id: "main-Tiles-container4-RotateY-point-1"
+                handler: [
+                  293.6028137207031
+                  -0.0012303224066272378
+                  100
+                  0.07612244784832001
+                ]
+              }
+            ]
+            connectors: [
+              t: -11.667435798694287
+              id: "main-Tiles-container4-RotateY-connector-2"
+            ]
+
+      "main-Tiles-container5-RotateY":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 814.0602913398952
+          chronology:
+            points: [
+              {
+                t: 394.1987351677311
+                value: -10
+                id: "main-Tiles-container5-RotateY-point-0"
+                handler: [
+                  100
+                  1.3571428060531616
+                  193.3025665283203
+                  0.12120552361011505
+                ]
+              }
+              {
+                t: 814.0602913398952
+                value: 0
+                id: "main-Tiles-container5-RotateY-point-1"
+                handler: [
+                  181.63975524902344
+                  -0.4382353723049164
+                  100
+                  1.471530556678772
+                ]
+              }
+            ]
+            connectors: [
+              t: 394.1987351677311
+              id: "main-Tiles-container5-RotateY-connector-3"
+            ]
+
+      "main-Tiles-container6-RotateY":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1159.2797930814525
+          chronology:
+            points: [
+              {
+                t: 825.7231123446776
+                value: -10
+                id: "main-Tiles-container6-RotateY-point-0"
+                handler: [
+                  100
+                  0.9285714030265808
+                  97.66743469238281
+                  0.5205211043357849
+                ]
+              }
+              {
+                t: 1159.2797930814525
+                value: 0
+                id: "main-Tiles-container6-RotateY-point-1"
+                handler: [
+                  137.32102966308594
+                  -0.3586370050907135
+                  100
+                  1.001530647277832
+                ]
+              }
+            ]
+            connectors: [
+              t: 825.7231123446776
+              id: "main-Tiles-container6-RotateY-connector-2"
+            ]
+
+  timeControl:
+    t: 0
+    _focus:
+      from: -16
+      to: 3697.4422079226965
+
+    _lastPlayedTickAt: 0
+
+  mainBox:
+    height: 400
+    _isVisible: true
+}

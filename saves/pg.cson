@@ -1,9 +1,9 @@
 {
   timeControl:
-    t: 3070.0000000102445
+    t: 2104.999999999185
     _focus:
-      from: -16
-      to: 4908.62311557789
+      from: -15.000000000931323
+      to: 6082.608242215174
 
     _lastPlayedTickAt: 0
 
@@ -15,71 +15,66 @@
       }
       {
         name: "AWESOME PIE"
+        propHolders: []
+      }
+      {
+        name: "TILE JOB"
         propHolders: [
           {
-            id: "main-AwesomePie-AwesomePie-PieDeg"
+            id: "main-Tiles-body-X"
             _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-PieDeg"
-            _height: 244
+            actorPropId: "main-Tiles-body-X"
+            _height: 349
           }
           {
-            id: "main-AwesomePie-AwesomePie-Pie2Deg"
+            id: "main-Tiles-container1-RotateY"
             _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie2Deg"
+            actorPropId: "main-Tiles-container1-RotateY"
+            _height: 273
+          }
+          {
+            id: "main-Tiles-container1-Opacity"
+            _expanded: false
+            actorPropId: "main-Tiles-container1-Opacity"
+            _height: 181
+          }
+          {
+            id: "main-Tiles-container1-Z"
+            _expanded: false
+            actorPropId: "main-Tiles-container1-Z"
+            _height: 267
+          }
+          {
+            id: "main-Tiles-container2-Z"
+            _expanded: false
+            actorPropId: "main-Tiles-container2-Z"
             _height: 180
           }
           {
-            id: "main-AwesomePie-AwesomePie-PieDegStart"
+            id: "main-Tiles-container2-Opacity"
             _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-PieDegStart"
-            _height: 180
+            actorPropId: "main-Tiles-container2-Opacity"
+            _height: 240
           }
           {
-            id: "main-AwesomePie-AwesomePie-Pie2DegStart"
+            id: "main-Tiles-container2-RotateY"
             _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie2DegStart"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-Pie3End"
-            _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie3End"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-Pie3Start"
-            _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie3Start"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-Pie4End"
-            _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie4End"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-Pie4Start"
-            _expanded: false
-            actorPropId: "main-AwesomePie-AwesomePie-Pie4Start"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-PieBounceEnd"
-            _expanded: true
-            actorPropId: "main-AwesomePie-AwesomePie-PieBounceEnd"
-            _height: 180
-          }
-          {
-            id: "main-AwesomePie-AwesomePie-PieBounceStart"
-            _expanded: true
-            actorPropId: "main-AwesomePie-AwesomePie-PieBounceStart"
+            actorPropId: "main-Tiles-container2-RotateY"
             _height: 180
           }
         ]
       }
+      {
+        name: "SUN OF A BEACH"
+        propHolders: [
+          id: "main-Tiles-container1-Z"
+          _expanded: true
+          actorPropId: "main-Tiles-container1-Z"
+          _height: 279
+        ]
+      }
     ]
-    _activeWorkspaceName: "AWESOME PIE"
+    _activeWorkspaceName: "SUN OF A BEACH"
 
   timeline:
     _allProps:
@@ -203,8 +198,8 @@
                 handler: [
                   471.739990234375
                   0.0017805431270971894
-                  574.90771484375
-                  0.046588122844696045
+                  475.9203186035156
+                  0.051687002182006836
                 ]
               }
               {
@@ -212,8 +207,8 @@
                 value: 0.4701654109700907
                 id: "main-Characters-AwesomeType-Username-point-12"
                 handler: [
-                  100
-                  0.07041844725608826
+                  155.68040466308594
+                  0.0055388761684298515
                   100
                   0.07041844725608826
                 ]
@@ -341,8 +336,8 @@
                 value: 1.2
                 id: "main-Characters-AwesomeType-Password-point-2"
                 handler: [
-                  142.7335968017578
-                  -0.5145452618598938
+                  176.760498046875
+                  -0.5578387975692749
                   100
                   0.0768367350101471
                 ]
@@ -1102,7 +1097,295 @@
               }
             ]
 
+      "main-Tiles-container1-Opacity":
+        pacs:
+          _idCounter: 8
+          chronologyLength: 1075.9547486174592
+          chronology:
+            points: [
+              {
+                t: -9.81328754324386
+                value: 1
+                id: "main-Tiles-container1-Opacity-point-4"
+                handler: [
+                  106.18671417236328
+                  0.12238810211420059
+                  632.0571899414062
+                  0.005659302230924368
+                ]
+              }
+              {
+                t: 1075.9547486174592
+                value: 0
+                id: "main-Tiles-container1-Opacity-point-3"
+                handler: [
+                  375.3087158203125
+                  0.049831751734018326
+                  146.4003448486328
+                  0.02781704254448414
+                ]
+              }
+            ]
+            connectors: [
+              t: -9.81328754324386
+              id: "main-Tiles-container1-Opacity-connector-8"
+            ]
+
+      "main-Tiles-container1-Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 200.06815484399257
+          chronology:
+            points: []
+            connectors: []
+
+      "main-Tiles-container1-X":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 1081.674679931743
+          chronology:
+            points: []
+            connectors: []
+
+      "main-Tiles-body-X":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 2090.5755915254667
+          chronology:
+            points: [
+              {
+                t: 76.80068685134215
+                value: 0
+                id: "main-Tiles-body-X-point-0"
+                handler: [
+                  100
+                  212.16415405273438
+                  792.9118041992188
+                  131.50611877441406
+                ]
+              }
+              {
+                t: 2090.5755915254667
+                value: -870
+                id: "main-Tiles-body-X-point-1"
+                handler: [
+                  885.7124633789062
+                  -199.537841796875
+                  100
+                  0.03609979897737503
+                ]
+              }
+            ]
+            connectors: [
+              t: 76.80068685134215
+              id: "main-Tiles-body-X-connector-7"
+            ]
+
+      "main-Tiles-container1-RotateY":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 1075.954748617459
+          chronology:
+            points: [
+              {
+                t: -16
+                value: 0
+                id: "main-Tiles-container1-RotateY-point-0"
+                handler: [
+                  100
+                  5.278969764709473
+                  662.9907836914062
+                  0.16349679231643677
+                ]
+              }
+              {
+                t: 1075.954748617459
+                value: -10
+                id: "main-Tiles-container1-RotateY-point-1"
+                handler: [
+                  325.8150329589844
+                  -0.4063320457935333
+                  100
+                  5.677724838256836
+                ]
+              }
+            ]
+            connectors: [
+              t: -16
+              id: "main-Tiles-container1-RotateY-connector-7"
+            ]
+
+      "main-Tiles-container1-Z":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1196.595641524204
+          chronology:
+            points: [
+              {
+                t: 95.36082422161057
+                value: 0
+                id: "main-Tiles-container1-Z-point-0"
+                handler: [
+                  100
+                  -0.1428571492433548
+                  666.084228515625
+                  17.540687561035156
+                ]
+              }
+              {
+                t: 1196.595641524204
+                value: -100
+                id: "main-Tiles-container1-Z-point-1"
+                handler: [
+                  260.8545227050781
+                  -0.42205891013145447
+                  0
+                  124.26641082763672
+                ]
+              }
+            ]
+            connectors: [
+              t: 95.36082422161057
+              id: "main-Tiles-container1-Z-connector-2"
+            ]
+
+      "main-Tiles-container2-Z":
+        pacs:
+          _idCounter: 9
+          chronologyLength: 1648.2256508674022
+          chronology:
+            points: [
+              {
+                t: 958.4072119390923
+                value: 0
+                id: "main-Tiles-container2-Z-point-0"
+                handler: [
+                  100
+                  9.142857551574707
+                  545.4432983398438
+                  29.380252838134766
+                ]
+              }
+              {
+                t: 1648.2256508674022
+                value: -100
+                id: "main-Tiles-container2-Z-point-1"
+                handler: [
+                  152.58706665039062
+                  -10.151263236999512
+                  100
+                  9.913469314575195
+                ]
+              }
+            ]
+            connectors: [
+              t: 958.4072119390923
+              id: "main-Tiles-container2-Z-connector-9"
+            ]
+
+      "main-Tiles-container2-Opacity":
+        pacs:
+          _idCounter: 9
+          chronologyLength: 1691.5326380646957
+          chronology:
+            points: [
+              {
+                t: 967.6872806242266
+                value: 1
+                id: "main-Tiles-container2-Opacity-point-0"
+                handler: [
+                  112.37342834472656
+                  0.541615903377533
+                  208.26744079589844
+                  -0.368985652923584
+                ]
+              }
+              {
+                t: 1691.5326380646957
+                value: 0
+                id: "main-Tiles-container2-Opacity-point-1"
+                handler: [
+                  387.68212890625
+                  -0.04002181440591812
+                  106.18671417236328
+                  0.13666945695877075
+                ]
+              }
+            ]
+            connectors: [
+              t: 967.6872806242266
+              id: "main-Tiles-container2-Opacity-connector-9"
+            ]
+
+      "main-Tiles-container2-RotateY":
+        pacs:
+          _idCounter: 10
+          chronologyLength: 1697.7193505214518
+          chronology:
+            points: [
+              {
+                t: 973.8739930809827
+                value: 0
+                id: "main-Tiles-container2-RotateY-point-0"
+                handler: [
+                  100
+                  7.642857074737549
+                  155.68043518066406
+                  -2.859783411026001
+                ]
+              }
+              {
+                t: 1697.7193505214518
+                value: -10
+                id: "main-Tiles-container2-RotateY-point-1"
+                handler: [
+                  192.80068969726562
+                  -0.4624999165534973
+                  100
+                  8.106887817382812
+                ]
+              }
+            ]
+            connectors: [
+              t: 973.8739930809827
+              id: "main-Tiles-container2-RotateY-connector-10"
+            ]
+
+      null:
+        pacs:
+          _idCounter: 9
+          chronologyLength: 1648.2256508674022
+          chronology:
+            points: [
+              {
+                t: 958.4072119390923
+                value: 0
+                id: "main-Tiles-container2-Z-point-0"
+                handler: [
+                  100
+                  9.142857551574707
+                  545.4432983398438
+                  29.380252838134766
+                ]
+              }
+              {
+                t: 1648.2256508674022
+                value: -30
+                id: "main-Tiles-container2-Z-point-1"
+                handler: [
+                  152.58706665039062
+                  -10.151263236999512
+                  100
+                  9.913469314575195
+                ]
+              }
+            ]
+            connectors: [
+              t: 958.4072119390923
+              id: "main-Tiles-container2-Z-connector-9"
+            ]
+
   mainBox:
-    height: 535
-    _isVisible: true
+    height: 445
+    _isVisible: false
 }
